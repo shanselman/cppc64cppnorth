@@ -1,5 +1,4 @@
 *.o
-*.prg
 *.d64
 *.exe
 build/

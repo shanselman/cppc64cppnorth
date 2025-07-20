@@ -1,52 +1,60 @@
 Modules list:
 -------------
-c64_main.c.34044.0.o:
-    CODE              Offs=000000  Size=0000F5  Align=00001  Fill=0000
-    RODATA            Offs=000000  Size=000032  Align=00001  Fill=0000
+c64_main_deluxe.c.34345.0.o:
+    CODE              Offs=000000  Size=0002A2  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=00005D  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(_cursor.o):
     BSS               Offs=000000  Size=000001  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(bordercolor.o):
-    CODE              Offs=0000F5  Size=000008  Align=00001  Fill=0000
+    CODE              Offs=0002A2  Size=000008  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(callmain.o):
-    CODE              Offs=0000FD  Size=000017  Align=00001  Fill=0000
+    CODE              Offs=0002AA  Size=000017  Align=00001  Fill=0000
     DATA              Offs=000000  Size=000004  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(cgetc.o):
-    CODE              Offs=000114  Size=000047  Align=00001  Fill=0000
+    CODE              Offs=0002C1  Size=000047  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(clrscr.o):
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(color.o):
-    CODE              Offs=00015B  Size=000010  Align=00001  Fill=0000
+    CODE              Offs=000308  Size=000010  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(condes.o):
-    CODE              Offs=00016B  Size=00000C  Align=00001  Fill=0000
+    CODE              Offs=000318  Size=00000C  Align=00001  Fill=0000
     DATA              Offs=000004  Size=000025  Align=00001  Fill=0000
     ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(conio.o):
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(cputc.o):
-    CODE              Offs=000177  Size=00006D  Align=00001  Fill=0000
+    CODE              Offs=000324  Size=00006D  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(cputs.o):
-    CODE              Offs=0001E4  Size=000020  Align=00001  Fill=0000
+    CODE              Offs=000391  Size=000020  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(crt0.o):
     STARTUP           Offs=000000  Size=000033  Align=00001  Fill=0000
     ONCE              Offs=00000C  Size=00001A  Align=00001  Fill=0000
     INIT              Offs=000000  Size=00001C  Align=00001  Fill=0000
+/home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(decsp1.o):
+    CODE              Offs=0003B1  Size=000009  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(exehdr.o):
     EXEHDR            Offs=000000  Size=00000C  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(gotoxy.o):
-    CODE              Offs=000204  Size=00000D  Align=00001  Fill=0000
+    CODE              Offs=0003BA  Size=00000D  Align=00001  Fill=0000
+/home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(incaxy.o):
+    CODE              Offs=0003C7  Size=00000B  Align=00001  Fill=0000
+/home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(incsp1.o):
+    CODE              Offs=0003D2  Size=000007  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(incsp2.o):
-    CODE              Offs=000211  Size=000016  Align=00001  Fill=0000
+    CODE              Offs=0003D9  Size=000016  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(kernal.o):
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(kplot.o):
-    CODE              Offs=000227  Size=00000B  Align=00001  Fill=0000
+    CODE              Offs=0003EF  Size=00000B  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(loadaddr.o):
     LOADADDR          Offs=000000  Size=000002  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(popa.o):
-    CODE              Offs=000232  Size=00000C  Align=00001  Fill=0000
+    CODE              Offs=0003FA  Size=00000C  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(pusha.o):
-    CODE              Offs=00023E  Size=000016  Align=00001  Fill=0000
+    CODE              Offs=000406  Size=000016  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(pushax.o):
-    CODE              Offs=000254  Size=00001A  Align=00001  Fill=0000
+    CODE              Offs=00041C  Size=00001A  Align=00001  Fill=0000
+/home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(revers.o):
+    CODE              Offs=000436  Size=000014  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(zerobss.o):
-    CODE              Offs=00026E  Size=000023  Align=00001  Fill=0000
+    CODE              Offs=00044A  Size=000023  Align=00001  Fill=0000
 /home/scott/github/cppc64cppnorth/tools/cc65-master/lib/c64.lib(zeropage.o):
     ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
 
@@ -59,37 +67,40 @@ ZEROPAGE              000002  00001B  00001A  00001
 LOADADDR              0007FF  000800  000002  00001
 EXEHDR                000801  00080C  00000C  00001
 STARTUP               00080D  00083F  000033  00001
-CODE                  000840  000AD0  000291  00001
-RODATA                000AD1  000B02  000032  00001
-DATA                  000B03  000B2B  000029  00001
-INIT                  000B2C  000B47  00001C  00001
-BSS                   000B48  000B48  000001  00001
-ONCE                  000B48  000B6D  000026  00001
+CODE                  000840  000CAC  00046D  00001
+RODATA                000CAD  000D09  00005D  00001
+DATA                  000D0A  000D32  000029  00001
+INIT                  000D33  000D4E  00001C  00001
+BSS                   000D4F  000D4F  000001  00001
+ONCE                  000D4F  000D74  000026  00001
 
 
 Exports list by name:
 ---------------------
 BSOUT                     00FFD2 RLA    CURS_X                    0000D3 RLZ    
-CURS_Y                    0000D6 RLZ    PLOT                      000A67 RLA    
-__BSS_RUN__               000B48 RLA    __BSS_SIZE__              000001 REA    
-__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     000B6E RLA    
-__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      000B03 RLA    
+CURS_Y                    0000D6 RLZ    PLOT                      000C2F RLA    
+__BSS_RUN__               000D4F RLA    __BSS_SIZE__              000001 REA    
+__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     000D75 RLA    
+__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      000D0A RLA    
 __EXEHDR__                000001 REA    __HEADER_LAST__           00080D RLA    
 __HIMEM__                 00D000 REA    __LOADADDR__              000001 REA    
 __MAIN_SIZE__             00C7F3 REA    __MAIN_START__            00080D RLA    
-__ONCE_RUN__              000B48 RLA    __STACKSIZE__             000800 REA    
-__STARTUP__               000001 REA    _bgcolor                  0009A3 RLA    
-_bordercolor              000935 RLA    _cgetc                    000954 RLA    
-_clrscr                   00E544 REA    _cputc                    0009BC RLA    
-_cputs                    000A2E RLA    _gotoxy                   000A47 RLA    
-_main                     0008E3 RLA    _textcolor                00099B RLA    
-c_sp                      000002 RLZ    callmain                  00093D RLA    
-cursor                    000B48 RLA    donelib                   0009AB RLA    
-gotoxy                    000A44 RLA    incsp2                    000A59 RLA    
-initlib                   000B48 RLA    plot                      000A10 RLA    
-popa                      000A72 RLA    ptr1                      00000A RLZ    
-pusha                     000A82 RLA    pushax                    000A98 RLA    
-zerobss                   000AAE RLA    
+__ONCE_RUN__              000D4F RLA    __STACKSIZE__             000800 REA    
+__STARTUP__               000001 REA    _bgcolor                  000B50 RLA    
+_bordercolor              000AE2 RLA    _cgetc                    000B01 RLA    
+_clrscr                   00E544 REA    _cputc                    000B69 RLA    
+_cputs                    000BDB RLA    _gotoxy                   000BFD RLA    
+_main                     000A61 RLA    _revers                   000C76 RLA    
+_textcolor                000B48 RLA    c_sp                      000002 RLZ    
+callmain                  000AEA RLA    cursor                    000D4F RLA    
+decsp1                    000BF1 RLA    donelib                   000B58 RLA    
+gotoxy                    000BFA RLA    incaxy                    000C09 RLA    
+incsp1                    000C12 RLA    incsp2                    000C21 RLA    
+initlib                   000D4F RLA    plot                      000BBD RLA    
+popa                      000C3A RLA    ptr1                      00000A RLZ    
+pusha                     000C4A RLA    pushax                    000C60 RLA    
+tmp1                      000012 RLZ    zerobss                   000C8A RLA    
+
 
 
 Exports list by value:
@@ -98,23 +109,26 @@ __CONSTRUCTOR_COUNT__     000000 REA    __DESTRUCTOR_COUNT__      000000 REA
 __BSS_SIZE__              000001 REA    __EXEHDR__                000001 REA    
 __LOADADDR__              000001 REA    __STARTUP__               000001 REA    
 c_sp                      000002 RLZ    ptr1                      00000A RLZ    
-CURS_X                    0000D3 RLZ    CURS_Y                    0000D6 RLZ    
-__STACKSIZE__             000800 REA    __HEADER_LAST__           00080D RLA    
-__MAIN_START__            00080D RLA    _main                     0008E3 RLA    
-_bordercolor              000935 RLA    callmain                  00093D RLA    
-_cgetc                    000954 RLA    _textcolor                00099B RLA    
-_bgcolor                  0009A3 RLA    donelib                   0009AB RLA    
-_cputc                    0009BC RLA    plot                      000A10 RLA    
-_cputs                    000A2E RLA    gotoxy                    000A44 RLA    
-_gotoxy                   000A47 RLA    incsp2                    000A59 RLA    
-PLOT                      000A67 RLA    popa                      000A72 RLA    
-pusha                     000A82 RLA    pushax                    000A98 RLA    
-zerobss                   000AAE RLA    __DESTRUCTOR_TABLE__      000B03 RLA    
-__BSS_RUN__               000B48 RLA    __ONCE_RUN__              000B48 RLA    
-cursor                    000B48 RLA    initlib                   000B48 RLA    
-__CONSTRUCTOR_TABLE__     000B6E RLA    __MAIN_SIZE__             00C7F3 REA    
-__HIMEM__                 00D000 REA    _clrscr                   00E544 REA    
-BSOUT                     00FFD2 RLA    
+tmp1                      000012 RLZ    CURS_X                    0000D3 RLZ    
+CURS_Y                    0000D6 RLZ    __STACKSIZE__             000800 REA    
+__HEADER_LAST__           00080D RLA    __MAIN_START__            00080D RLA    
+_main                     000A61 RLA    _bordercolor              000AE2 RLA    
+callmain                  000AEA RLA    _cgetc                    000B01 RLA    
+_textcolor                000B48 RLA    _bgcolor                  000B50 RLA    
+donelib                   000B58 RLA    _cputc                    000B69 RLA    
+plot                      000BBD RLA    _cputs                    000BDB RLA    
+decsp1                    000BF1 RLA    gotoxy                    000BFA RLA    
+_gotoxy                   000BFD RLA    incaxy                    000C09 RLA    
+incsp1                    000C12 RLA    incsp2                    000C21 RLA    
+PLOT                      000C2F RLA    popa                      000C3A RLA    
+pusha                     000C4A RLA    pushax                    000C60 RLA    
+_revers                   000C76 RLA    zerobss                   000C8A RLA    
+__DESTRUCTOR_TABLE__      000D0A RLA    __BSS_RUN__               000D4F RLA    
+__ONCE_RUN__              000D4F RLA    cursor                    000D4F RLA    
+initlib                   000D4F RLA    __CONSTRUCTOR_TABLE__     000D75 RLA    
+__MAIN_SIZE__             00C7F3 REA    __HIMEM__                 00D000 REA    
+_clrscr                   00E544 REA    BSOUT                     00FFD2 RLA    
+
 
 
 Imports list:
@@ -159,44 +173,54 @@ __ONCE_RUN__ ([linker generated]):
 __STACKSIZE__ ([linker generated]):
     [linker generated]        /home/scott/github/cppc64cppnorth/tools/cc65-master/cfg/c64.cfg:15
 __STARTUP__ (crt0.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:13
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:13
 _bgcolor (color.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:20
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:21
 _bordercolor (bordercolor.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:21
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:22
 _cgetc (cgetc.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:18
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:18
 _clrscr (clrscr.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:14
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:14
 _cputc (cputc.o):
     cputs.o                   conio/cputs.s:9
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:16
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:16
 _cputs (cputs.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:17
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:17
 _gotoxy (gotoxy.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:15
-_main (c64_main.c.34044.0.o):
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:15
+_main (c64_main_deluxe.c.34345.0.o):
     callmain.o                runtime/callmain.s:11
+_revers (revers.o):
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:19
 _textcolor (color.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:19
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:20
 c_sp (zeropage.o):
     pushax.o                  runtime/pushax.s:8
     pusha.o                   runtime/pusha.s:8
     popa.o                    runtime/popa.s:8
     incsp2.o                  runtime/incsp2.s:8
+    incsp1.o                  runtime/incsp1.s:8
+    decsp1.o                  runtime/decsp1.s:8
     crt0.o                    /home/scott/github/cppc64cppnorth/tools/cc65-master/asminc/zeropage.inc:11
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:10
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:10
 callmain (callmain.o):
     crt0.o                    c64/crt0.s:9
 cursor (_cursor.o):
     cgetc.o                   c64/cgetc.s:8
+decsp1 (decsp1.o):
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:394
 donelib (condes.o):
     crt0.o                    c64/crt0.s:8
 gotoxy (gotoxy.o):
     cputs.o                   conio/cputs.s:9
     cputc.o                   c64/cputc.s:12
+incaxy (incaxy.o):
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:394
+incsp1 (incsp1.o):
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:394
 incsp2 (incsp2.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:175
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:394
 initlib (condes.o):
     crt0.o                    c64/crt0.s:8
 plot (cputc.o):
@@ -207,10 +231,13 @@ ptr1 (zeropage.o):
     zerobss.o                 common/zerobss.s:9
     cputs.o                   conio/cputs.s:10
 pusha (pusha.o):
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:175
-    c64_main.c.34044.0.o      c64_main.c.34044.0.s:175
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:394
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:394
+    c64_main_deluxe.c.34345.0.o c64_main_deluxe.c.34345.0.s:394
 pushax (pushax.o):
     callmain.o                runtime/callmain.s:11
+tmp1 (zeropage.o):
+    incaxy.o                  runtime/incaxy.s:8
 zerobss (zerobss.o):
     crt0.o                    c64/crt0.s:9
 
