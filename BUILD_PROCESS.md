@@ -168,7 +168,3 @@ Potential additions:
 - **Input**: Joystick control
 - **Disk I/O**: Save/load functionality
 - **More C++ Features**: STL-like containers, exceptions
-
----
-
-*This build system demonstrates that C++ has been powerful and versatile since the early days - capable of running on hardware from 1982 while providing modern programming paradigms!*
