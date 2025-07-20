@@ -8,7 +8,7 @@
 
 // Screen memory locations
 #define SCREEN_RAM  0x0400
-#define COLOR_RAM   0xD800
+#define COLOR_MEM   0xD800
 
 // Custom character data for maple leaf (8x8 pixels each)
 // We'll use characters 64-67 (@ A B C) to create a 2x2 maple leaf
@@ -92,17 +92,17 @@ void draw_big_maple_leaf(unsigned char x, unsigned char y) {
     // Draw the 2x2 maple leaf
     pos = y * 40 + x;
     POKE(SCREEN_RAM + pos, 64);     // Top-left
-    POKE(COLOR_RAM + pos, COLOR_RED);
+    POKE(COLOR_MEM + pos, COLOR_RED);
     
     POKE(SCREEN_RAM + pos + 1, 65); // Top-right
-    POKE(COLOR_RAM + pos + 1, COLOR_RED);
+    POKE(COLOR_MEM + pos + 1, COLOR_RED);
     
     pos += 40; // Next row
     POKE(SCREEN_RAM + pos, 66);     // Bottom-left
-    POKE(COLOR_RAM + pos, COLOR_RED);
+    POKE(COLOR_MEM + pos, COLOR_RED);
     
     POKE(SCREEN_RAM + pos + 1, 67); // Bottom-right
-    POKE(COLOR_RAM + pos + 1, COLOR_RED);
+    POKE(COLOR_MEM + pos + 1, COLOR_RED);
 }
 
 void main(void) {
