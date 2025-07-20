@@ -1,0 +1,48 @@
+#pragma once
+
+#include "Declaration.h"
+#include "Linker.h"
+#include "CompilerTypes.h"
+
+class GlobalAnalyzer
+{
+public:
+	GlobalAnalyzer(Errors* errors, Linker* linker);
+	~GlobalAnalyzer(void);
+
+	void DumpCallGraph(void);
+	void TopoSort(Declaration * procDec);
+	void AutoInline(void);
+	void CheckFastcall(Declaration* procDec, bool head);
+	void CheckInterrupt(void);
+	void AutoZeroPage(LinkerSection * lszp, int zpsize);
+	void MarkRecursions(void);
+
+	void AnalyzeProcedure(Expression* cexp, Expression* exp, Declaration* procDec);
+	void AnalyzeAssembler(Expression* exp, Declaration* procDec);
+	void AnalyzeGlobalVariable(Declaration* dec);
+
+	uint64		mCompilerOptions;
+
+protected:
+	Errors* mErrors;
+	Linker* mLinker;
+
+	GrowingArray<Declaration*>		mCalledFunctions, mCallingFunctions, mVariableFunctions, mFunctions, mTopoFunctions;
+	GrowingArray<Declaration*>		mGlobalVariables;
+
+	void AnalyzeInit(Declaration* mdec);
+	int CallerInvokes(Declaration* called);
+	int CallerInvokes(Declaration* caller, Declaration* called);
+
+	Declaration* Analyze(Expression* exp, Declaration* procDec, uint32 flags);
+
+	bool IsStackParam(const Declaration* pdec) const;
+	bool MarkCycle(Declaration* rootDec, Declaration* procDec);
+
+	uint64 GetProcFlags(Declaration* to) const;
+	void RegisterCall(Declaration* from, Declaration* to);
+	void RegisterProc(Declaration* to);
+	void UndoParamReference(Expression* ex, Declaration* param);
+};
+

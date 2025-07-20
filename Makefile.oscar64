@@ -1,0 +1,36 @@
+# Makefile for Oscar64 C++ compilation
+
+OSCAR64 = tools/oscar64/build/oscar64
+TARGET = c64
+CPP_SOURCE = cpp_simple.cpp
+CPP_PROGRAM = cppnorth_cpp.prg
+
+# Oscar64 flags  
+OSCAR_FLAGS = -O3 -n
+
+all: $(CPP_PROGRAM)
+
+$(CPP_PROGRAM): $(CPP_SOURCE)
+	$(OSCAR64) $(CPP_SOURCE) $(OSCAR_FLAGS)
+
+clean:
+	rm -f $(CPP_PROGRAM)
+
+run: $(CPP_PROGRAM)
+	x64sc $(CPP_PROGRAM)
+
+# Show C++ features used
+info:
+	@echo "C++ Features in this demo:"
+	@echo "- Classes and inheritance"
+	@echo "- Templates and constexpr"
+	@echo "- RAII (Resource Acquisition Is Initialization)"
+	@echo "- Namespaces"
+	@echo "- Enum classes"
+	@echo "- Virtual functions and polymorphism"
+	@echo "- Constructor member initialization lists"
+	@echo "- Operator overloading"
+	@echo "- Auto keyword"
+	@echo "- Modern C++ const-correctness"
+
+.PHONY: all clean run info

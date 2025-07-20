@@ -1,0 +1,2146 @@
+--------------------------------------------------------------------
+main: /home/scott/github/cppc64cppnorth/cpp_simple.cpp:177
+$10 R0(I), $00 R1(I), $00 R2(B), $00 R3(B), 
+L0: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/cpp_simple.cpp
+0000 (  16)		STOREA1		<-	V(-1 '')+53280 , CC:1	{V}
+0001 (  17)		STOREA1		<-	V(-1 '')+53281 , CC:1	{V}
+0002 ( 345)		CONST	R0(C)[147..147]	<-	CI:147	{S}
+0003 ( 193)		JSR		<-	R0(CF)[147..147], V(-1 '')+0 	{}
+0004 (  41)		STOREG1		<-	V(87 'conference')+0 , CC:14	{}
+0005 (  42)		STOREG1		<-	V(87 'conference')+1 , CC:4	{}
+0006 (  99)		STOREG1		<-	V(87 'conference')+2 , CC:5	{}
+0007 (  99)		STOREG1		<-	V(87 'conference')+3 , CC:1	{}
+0008 (  99)		STOREG1		<-	V(87 'conference')+4 , CC:34	{}
+0009 (  99)		STOREG1		<-	V(87 'conference')+5 , CC:22	{}
+000a ( 385)		STOREA1		<-	V(-1 '')+646 , CC:2	{V}
+000b ( 106)		STOREC1		<-	V(0 '')+0 , CC:5	{}
+000c ( 106)		STOREC1		<-	V(1 '')+0 , CC:1	{}
+000d ( 106)		CALLN		<-	V(1 'gotoxy')+0 	{}
+000e ( 107)		CONST	R0(C)[43..43]	<-	CI:43	{S}
+000f ( 193)		JSR		<-	R0(CF)[43..43], V(-1 '')+0 	{}
+0010 ( 108)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+2 	{}
+0011 ( 108)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0012 ( 108)		BINOP1	R0(I)[1..256]	<-	R0(IF)[0..255], CI:1	{}
+0013 ( 108)		LOADG1	R1(C)[-128..255]	<-	V(87 'conference')+4 	{I}
+0014 ( 108)		RELOP28	R2(B)[0..1]	<-	R0(C)[1..256], R1(C)[-128..255]	{}
+0015 ( 108)		BRANCH		<-	R2(BF)[0..1]	{}
+		==> 584
+		==> 46
+L584: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/cpp_simple.cpp
+0000 ( 109)		CONST	R2(C)[45..45]	<-	CI:45	{IS}
+0001 ( 193)		JUMP		<-		{}
+		==> 44
+L44: <= D-1: (2) Head P770 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R2(C)[45..45], V(-1 '')+0 	{}
+0001 ( 108)		BINOP1	R0(C)[2..255]	<-	R0(CF)[1..254], CI:1	{}
+0002 ( 108)		RELOP28	R3(B)[0..1]	<-	R0(C)[2..255], R1(C)[-128..255]	{}
+0003 ( 108)		BRANCH		<-	R3(BF)[0..1]	{}
+		==> 44
+		==> 46
+L46: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/cpp_simple.cpp
+0000 ( 111)		CONST	R1(C)[43..43]	<-	CI:43	{S}
+0001 ( 193)		JSR		<-	R1(C)[43..43], V(-1 '')+0 	{}
+0002 ( 113)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+2 	{}
+0003 ( 113)		STOREC1		<-	V(0 '')+0 , R0(CF)[-128..255]	{}
+0004 ( 113)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+5 	{}
+0005 ( 113)		STOREC1		<-	V(1 '')+0 , R0(CF)[-128..255]	{}
+0006 ( 113)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0007 ( 193)		JSR		<-	R1(CF)[43..43], V(-1 '')+0 	{}
+0008 ( 115)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+2 	{}
+0009 ( 115)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+000a ( 115)		BINOP1	R0(I)[1..256]	<-	R0(IF)[0..255], CI:1	{}
+000b ( 115)		LOADG1	R1(C)[-128..255]	<-	V(87 'conference')+4 	{I}
+000c ( 115)		RELOP28	R2(B)[0..1]	<-	R0(C)[1..256], R1(C)[-128..255]	{}
+000d ( 115)		BRANCH		<-	R2(BF)[0..1]	{}
+		==> 583
+		==> 146
+L583: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/cpp_simple.cpp
+0000 ( 116)		CONST	R2(C)[45..45]	<-	CI:45	{IS}
+0001 ( 193)		JUMP		<-		{}
+		==> 144
+L144: <= D-1: (2) Head P769 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R2(C)[45..45], V(-1 '')+0 	{}
+0001 ( 115)		BINOP1	R0(C)[2..255]	<-	R0(CF)[1..254], CI:1	{}
+0002 ( 115)		RELOP28	R3(B)[0..1]	<-	R0(C)[2..255], R1(C)[-128..255]	{}
+0003 ( 115)		BRANCH		<-	R3(BF)[0..1]	{}
+		==> 144
+		==> 146
+L146: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/cpp_simple.cpp
+0000 ( 118)		CONST	R0(C)[43..43]	<-	CI:43	{S}
+0001 ( 193)		JSR		<-	R0(CF)[43..43], V(-1 '')+0 	{}
+0002 ( 121)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+3 	{}
+0003 ( 121)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0004 ( 121)		BINOP1	R0(I)[1..256]	<-	R0(IF)[0..255], CI:1	{}
+0005 ( 121)		LOADG1	R1(C)[-128..255]	<-	V(87 'conference')+5 	{}
+0006 ( 121)		RELOP28	R1(B)[0..1]	<-	R0(C)[1..256], R1(CF)[-128..255]	{}
+0007 ( 121)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 582
+		==> 9
+L582: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/cpp_simple.cpp
+0000 ( 123)		CONST	R2(C)[124..124]	<-	CI:124	{IS}
+0001 ( 122)		JUMP		<-		{}
+		==> 212
+L212: <= D-1: (2) Head P768 /home/scott/github/cppc64cppnorth/cpp_simple.cpp
+0000 ( 122)		LOADG1	R1(C)[-128..255]	<-	V(87 'conference')+2 	{}
+0001 ( 122)		STOREC1		<-	V(0 '')+0 , R1(CF)[-128..255]	{}
+0002 ( 122)		STOREC1		<-	V(1 '')+0 , R0(C)[1..254]	{}
+0003 ( 122)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0004 ( 193)		JSR		<-	R2(C)[124..124], V(-1 '')+0 	{}
+0005 ( 124)		LOADG1	R1(C)[-128..255]	<-	V(87 'conference')+4 	{}
+0006 ( 124)		STOREC1		<-	V(0 '')+0 , R1(CF)[-128..255]	{}
+0007 ( 124)		STOREC1		<-	V(1 '')+0 , R0(C)[1..254]	{}
+0008 ( 124)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0009 ( 193)		JSR		<-	R2(C)[124..124], V(-1 '')+0 	{}
+000a ( 121)		BINOP1	R0(C)[2..255]	<-	R0(CF)[1..254], CI:1	{}
+000b ( 121)		LOADG1	R1(C)[-128..255]	<-	V(87 'conference')+5 	{}
+000c ( 121)		RELOP28	R1(B)[0..1]	<-	R0(C)[2..255], R1(CF)[-128..255]	{}
+000d ( 121)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 212
+		==> 9
+L9: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 385)		STOREA1		<-	V(-1 '')+646 , CC:2	{V}
+0001 ( 401)		CONST	R0(C)[18..18]	<-	CI:18	{S}
+0002 ( 193)		JSR		<-	R0(CF)[18..18], V(-1 '')+0 	{}
+0003 (  51)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+0 	{}
+0004 (  51)		BINOP1	R0(C)[-128..255]	<-	R0(CF)[-128..255], CI:6	{}
+0005 (  51)		STOREC1		<-	V(0 '')+0 , R0(CF)[-128..255]	{}
+0006 (  51)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+1 	{}
+0007 (  51)		STOREC1		<-	V(1 '')+0 , R0(CF)[-128..255]	{}
+0008 (  51)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0009 (  52)		CONST	R2(C)[32..32]	<-	CI:32	{S}
+000a ( 193)		JSR		<-	R2(C)[32..32], V(-1 '')+0 	{}
+000b (  54)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+0 	{}
+000c (  54)		BINOP1	R1(C)[-128..255]	<-	R0(CF)[-128..255], CI:5	{}
+000d (  54)		STOREC1		<-	V(0 '')+0 , R1(C)[-128..255]	{}
+000e (  54)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+1 	{}
+000f (  54)		BINOP1	R3(C)[-128..255]	<-	R0(CF)[-128..255], CI:1	{}
+0010 (  54)		STOREC1		<-	V(1 '')+0 , R3(C)[-128..255]	{}
+0011 (  54)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0012 (  55)		CONST	R0(P)[0..0]	<-	CG0(74:0 '')	{S}
+0013 (  55)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(74 '')} [0..0]	{}
+0014 (  55)		CALLN		<-	V(2 'printf')+0 	{}
+0015 (  57)		BINOP1	R0(C)[-128..255]	<-	R1(CF)[-128..255], CI:-2	{}
+0016 (  57)		STOREC1		<-	V(0 '')+0 , R0(CF)[-128..255]	{}
+0017 (  57)		BINOP1	R0(C)[-128..255]	<-	R3(CF)[-128..255], CI:1	{}
+0018 (  57)		STOREC1		<-	V(1 '')+0 , R0(CF)[-128..255]	{}
+0019 (  57)		CALLN		<-	V(1 'gotoxy')+0 	{}
+001a ( 193)		JSR		<-	R2(C)[32..32], V(-1 '')+0 	{}
+001b (  59)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+0 	{}
+001c (  59)		BINOP1	R3(C)[-128..255]	<-	R0(CF)[-128..255], CI:5	{}
+001d (  59)		STOREC1		<-	V(0 '')+0 , R3(C)[-128..255]	{}
+001e (  59)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+1 	{}
+001f (  59)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0020 (  59)		BINOP1	R1(I)[2..257]	<-	R0(IF)[0..255], CI:2	{}
+0021 (  59)		STOREC1		<-	V(1 '')+0 , R1(C)[2..257]	{}
+0022 (  59)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0023 (  60)		CONST	R0(P)[0..0]	<-	CG0(75:0 '')	{S}
+0024 (  60)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(75 '')} [0..0]	{}
+0025 (  60)		CALLN		<-	V(2 'printf')+0 	{}
+0026 (  61)		STOREC1		<-	V(1 '')+0 , R1(CF)[2..257]	{}
+0027 (  61)		BINOP1	R0(C)[-128..255]	<-	R3(CF)[-128..255], CI:4	{}
+0028 (  61)		STOREC1		<-	V(0 '')+0 , R0(CF)[-128..255]	{}
+0029 (  61)		CALLN		<-	V(1 'gotoxy')+0 	{}
+002a ( 193)		JSR		<-	R2(C)[32..32], V(-1 '')+0 	{}
+002b (  64)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+0 	{}
+002c (  64)		BINOP1	R3(C)[-128..255]	<-	R0(CF)[-128..255], CI:2	{}
+002d (  64)		STOREC1		<-	V(0 '')+0 , R3(C)[-128..255]	{}
+002e (  64)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+1 	{}
+002f (  64)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0030 (  64)		BINOP1	R1(I)[3..258]	<-	R0(IF)[0..255], CI:3	{}
+0031 (  64)		STOREC1		<-	V(1 '')+0 , R1(C)[3..258]	{}
+0032 (  64)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0033 (  65)		CONST	R0(P)[0..0]	<-	CG0(76:0 '')	{S}
+0034 (  65)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(76 '')} [0..0]	{}
+0035 (  65)		CALLN		<-	V(2 'printf')+0 	{}
+0036 (  66)		STOREC1		<-	V(1 '')+0 , R1(CF)[3..258]	{}
+0037 (  66)		BINOP1	R0(C)[-128..255]	<-	R3(CF)[-128..255], CI:4	{}
+0038 (  66)		STOREC1		<-	V(0 '')+0 , R0(CF)[-128..255]	{}
+0039 (  66)		CALLN		<-	V(1 'gotoxy')+0 	{}
+003a ( 193)		JSR		<-	R2(C)[32..32], V(-1 '')+0 	{}
+003b (  68)		LOADG1	R0(C)[0..249]	<-	V(87 'conference')+0 	{}
+003c (  68)		BINOP1	R1(C)[-128..255]	<-	R0(CF)[0..249], CI:8	{}
+003d (  68)		STOREC1		<-	V(0 '')+0 , R1(C)[-128..255]	{}
+003e (  68)		LOADG1	R0(C)[0..247]	<-	V(87 'conference')+1 	{}
+003f (  68)		BINOP1	R3(C)[3..250]	<-	R0(CF)[0..247], CI:3	{}
+0040 (  68)		STOREC1		<-	V(1 '')+0 , R3(C)[3..250]	{}
+0041 (  68)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0042 (  69)		CONST	R0(P)[0..0]	<-	CG0(77:0 '')	{S}
+0043 (  69)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(77 '')} [0..0]	{}
+0044 (  69)		CALLN		<-	V(2 'printf')+0 	{}
+0045 (  71)		BINOP1	R1(C)[1..250]	<-	R1(CF)[-128..255], CI:-7	{}
+0046 (  71)		STOREC1		<-	V(0 '')+0 , R1(C)[1..250]	{}
+0047 (  71)		BINOP1	R3(C)[4..251]	<-	R3(CF)[3..250], CI:1	{}
+0048 (  71)		STOREC1		<-	V(1 '')+0 , R3(C)[4..251]	{}
+0049 (  71)		CALLN		<-	V(1 'gotoxy')+0 	{}
+004a (  72)		CONST	R0(P)[0..0]	<-	CG0(78:0 '')	{S}
+004b (  72)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(78 '')} [0..0]	{}
+004c (  72)		CALLN		<-	V(2 'printf')+0 	{}
+004d (  74)		BINOP1	R1(C)[2..251]	<-	R1(CF)[1..250], CI:1	{}
+004e (  74)		STOREC1		<-	V(0 '')+0 , R1(C)[2..251]	{}
+004f (  74)		BINOP1	R3(C)[5..252]	<-	R3(CF)[4..251], CI:1	{}
+0050 (  74)		STOREC1		<-	V(1 '')+0 , R3(C)[5..252]	{}
+0051 (  74)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0052 (  75)		CONST	R0(P)[0..0]	<-	CG0(79:0 '')	{S}
+0053 (  75)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(79 '')} [0..0]	{}
+0054 (  75)		CALLN		<-	V(2 'printf')+0 	{}
+0055 (  77)		BINOP1	R1(C)[3..252]	<-	R1(CF)[2..251], CI:1	{}
+0056 (  77)		STOREC1		<-	V(0 '')+0 , R1(C)[3..252]	{}
+0057 (  77)		BINOP1	R3(C)[6..253]	<-	R3(CF)[5..252], CI:1	{}
+0058 (  77)		STOREC1		<-	V(1 '')+0 , R3(C)[6..253]	{}
+0059 (  77)		CALLN		<-	V(1 'gotoxy')+0 	{}
+005a (  78)		CONST	R0(P)[0..0]	<-	CG0(80:0 '')	{S}
+005b (  78)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(80 '')} [0..0]	{}
+005c (  78)		CALLN		<-	V(2 'printf')+0 	{}
+005d (  80)		BINOP1	R1(C)[4..253]	<-	R1(CF)[3..252], CI:1	{}
+005e (  80)		STOREC1		<-	V(0 '')+0 , R1(C)[4..253]	{}
+005f (  80)		BINOP1	R3(C)[7..254]	<-	R3(CF)[6..253], CI:1	{}
+0060 (  80)		STOREC1		<-	V(1 '')+0 , R3(C)[7..254]	{}
+0061 (  80)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0062 (  81)		CONST	R0(P)[0..0]	<-	CG0(81:0 '')	{S}
+0063 (  81)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(81 '')} [0..0]	{}
+0064 (  81)		CALLN		<-	V(2 'printf')+0 	{}
+0065 (  83)		BINOP1	R0(C)[6..255]	<-	R1(CF)[4..253], CI:2	{}
+0066 (  83)		STOREC1		<-	V(0 '')+0 , R0(CF)[6..255]	{}
+0067 (  83)		BINOP1	R0(C)[8..255]	<-	R3(CF)[7..254], CI:1	{}
+0068 (  83)		STOREC1		<-	V(1 '')+0 , R0(CF)[8..255]	{}
+0069 (  83)		CALLN		<-	V(1 'gotoxy')+0 	{}
+006a ( 193)		JSR		<-	R2(C)[32..32], V(-1 '')+0 	{}
+006b (  85)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+0 	{}
+006c (  85)		BINOP1	R0(C)[-128..255]	<-	R0(CF)[-128..255], CI:6	{}
+006d (  85)		STOREC1		<-	V(0 '')+0 , R0(CF)[-128..255]	{}
+006e (  85)		LOADG1	R0(C)[-128..255]	<-	V(87 'conference')+1 	{}
+006f (  85)		BINOP1	R0(C)[-128..255]	<-	R0(CF)[-128..255], CI:9	{}
+0070 (  85)		STOREC1		<-	V(1 '')+0 , R0(CF)[-128..255]	{}
+0071 (  85)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0072 ( 193)		JSR		<-	R2(CF)[32..32], V(-1 '')+0 	{}
+0073 ( 403)		CONST	R0(C)[146..146]	<-	CI:146	{S}
+0074 ( 193)		JSR		<-	R0(CF)[146..146], V(-1 '')+0 	{}
+0075 ( 385)		STOREA1		<-	V(-1 '')+646 , CC:0	{V}
+0076 ( 149)		STOREC1		<-	V(0 '')+0 , CC:10	{}
+0077 ( 149)		STOREC1		<-	V(1 '')+0 , CC:3	{}
+0078 ( 149)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0079 ( 150)		CONST	R0(P)[0..0]	<-	CG0(82:0 '')	{S}
+007a ( 150)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(82 '')} [0..0]	{}
+007b ( 150)		CALLN		<-	V(2 'printf')+0 	{}
+007c ( 385)		STOREA1		<-	V(-1 '')+646 , CC:12	{V}
+007d ( 153)		STOREC1		<-	V(0 '')+0 , CC:9	{}
+007e ( 153)		STOREC1		<-	V(1 '')+0 , CC:19	{}
+007f ( 153)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0080 ( 154)		CONST	R0(P)[0..0]	<-	CG0(83:0 '')	{S}
+0081 ( 154)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(83 '')} [0..0]	{}
+0082 ( 154)		CALLN		<-	V(2 'printf')+0 	{}
+0083 ( 385)		STOREA1		<-	V(-1 '')+646 , CC:0	{V}
+0084 ( 157)		STOREC1		<-	V(0 '')+0 , CC:11	{}
+0085 ( 157)		STOREC1		<-	V(1 '')+0 , CC:24	{}
+0086 ( 157)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0087 ( 158)		CONST	R0(P)[0..0]	<-	CG0(84:0 '')	{S}
+0088 ( 158)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(84 '')} [0..0]	{}
+0089 ( 158)		CALLN		<-	V(2 'printf')+0 	{}
+008a ( 385)		STOREA1		<-	V(-1 '')+646 , CC:2	{V}
+008b ( 162)		STOREC1		<-	V(0 '')+0 , CC:11	{}
+008c ( 162)		STOREC1		<-	V(1 '')+0 , CC:16	{}
+008d ( 162)		CALLN		<-	V(1 'gotoxy')+0 	{}
+008e ( 163)		CONST	R0(P)[0..0]	<-	CG0(85:0 '')	{S}
+008f ( 163)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(85 '')} [0..0]	{}
+0090 ( 163)		CALLN		<-	V(2 'printf')+0 	{}
+0091 ( 385)		STOREA1		<-	V(-1 '')+646 , CC:0	{V}
+0092 ( 166)		STOREC1		<-	V(0 '')+0 , CC:17	{}
+0093 ( 166)		STOREC1		<-	V(1 '')+0 , CC:16	{}
+0094 ( 166)		CALLN		<-	V(1 'gotoxy')+0 	{}
+0095 ( 167)		CONST	R0(P)[0..0]	<-	CG0(86:0 '')	{S}
+0096 ( 167)		STOREF2		<-	V(0 '')+0 , R0(PF)+0 {V(86 '')} [0..0]	{}
+0097 ( 167)		CALLN		<-	V(2 'printf')+0 	{}
+0098 ( 269)		JSR		<-	V(-1 '')+0 	{}
+0099 ( 188)		RETV		<-	CI:0	{}
+--------------------------------------------------------------------
+gotoxy: /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.h:93
+
+L0: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 375)		JSR		<-	V(0 '')+0 , V(1 '')+0 , V(-1 '')+0 	{}
+0001 ( 381)		RET		<-		{}
+--------------------------------------------------------------------
+printf: /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.h:18
+$00 R0(L), $04 R1(L), $08 R2(P), $0a R3(P), $0c R4(I), $0e R5(I), $10 R6(I), $11 R7(I), $12 R8(I), $13 R9(C), $14 R10(B), $15 R11(C), 
+L0: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 355)		CONST	R1(C)[0..0]	<-	CI:0	{}
+0001 ( 551)		LOADP2	R0(P)	<-	V(0 '')+0 	{A}
+0002 ( 358)		LOADI1	R4(C)[-128..255]	<-	R0(P)+0	{}
+0003 ( 358)		BRANCH		<-	R4(C)[-128..255]	{}
+		==> 1891
+		==> 4
+L1891: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 358)		LEAI	R2(P)+0	<-	R0(PF)+0, CI:1	{}
+0001 ( 551)		CONST	R3(P)[2..2]	<-	CP2(0:2 '')	{}
+0002 ( 360)		JUMP		<-		{}
+		==> 3
+L3: <= D-1: (2) Head P4216 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 360)		RELOP19	R0(B)[0..1]	<-	R4(C)[-128..255], CC:37	{}
+0001 ( 360)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 5
+		==> 6
+L5: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 362)		BRANCH		<-	R1(C)[0..255]	{}
+		==> 7
+		==> 8
+L7: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 362)		CONV37	R0(I)[0..49]	<-	R1(CF)[0..49]	{}
+0001 ( 366)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0002 ( 366)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], CC:0	{}
+0003 (  18)		LOADG1	R0(C)[-128..255]	<-	V(7 'buff' A)+0 	{}
+0004 (  18)		BRANCH		<-	R0(C)[-128..255]	{}
+		==> 1892
+		==> 9
+L1892: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		CONST	R1(C)[1..1]	<-	CI:1	{}
+0001 ( 206)		JUMP		<-		{}
+		==> 11
+L11: <= D-1: (2) Head P4213 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 206)		RELOP19	R4(B)[0..1]	<-	R0(C)[-128..255], CC:10	{}
+0001 ( 206)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 14
+		==> 15
+L14: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 207)		CONST	R0(I)[13..13]	<-	CI:13	{S}
+0001 ( 239)		JUMP		<-		{}
+		==> 4316
+L4316: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R0(CF)[-128..255], V(-1 '')+0 	{}
+0001 ( 239)		JUMP		<-		{}
+		==> 10
+L10: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		LEAG	R0(P)[1..49]	<-	R1(C)[1..49]	{}
+0001 (  18)		LOADI1	R0(C)[-128..255]	<-	R0(PF)+0 {V(7 'buff' A)} [1..49]	{}
+0002 (  18)		BINOP1	R1(C) {V(7 'buff' A)} [2..50]	<-	R1(CF) {V(7 'buff' A)} [1..49], CI:1	{}
+0003 (  18)		BRANCH		<-	R0(C)[-128..255]	{}
+		==> 11
+		==> 9
+L9: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 371)		CONST	R1(C)[0..0]	<-	CI:0	{}
+0001 ( 362)		JUMP		<-		{}
+		==> 8
+L8: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 378)		STOREG1		<-	V(8 'si')+0 , CC:32	{}
+0001 ( 376)		STOREG1		<-	V(8 'si')+1 , CC:0	{}
+0002 ( 377)		STOREG1		<-	V(8 'si')+2 , CC:255	{}
+0003 ( 375)		STOREG2		<-	V(8 'si')+3 , CI:10	{}
+0004 ( 379)		STOREG1		<-	V(8 'si')+5 , CB:0	{}
+0005 ( 380)		STOREG1		<-	V(8 'si')+6 , CB:0	{}
+0006 ( 381)		STOREG1		<-	V(8 'si')+7 , CB:0	{}
+0007 ( 373)		JUMP		<-		{}
+		==> 25
+L25: <= D-1: (5) Head P4211 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 373)		LOADI1	R7(C)[-128..255]	<-	R2(P)+0	{}
+0001 ( 373)		LEAI	R2(P)+0	<-	R2(PF)+0, CI:1	{}
+0002 ( 385)		RELOP19	R0(B)[0..1]	<-	R7(C)[-128..255], CC:43	{}
+0003 ( 385)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 27
+		==> 28
+L27: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 386)		STOREG1		<-	V(8 'si')+5 , CB:1	{}
+0001 ( 383)		JUMP		<-		{}
+		==> 25
+L28: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 387)		RELOP19	R0(B)[0..1]	<-	R7(C)[-128..255], CC:48	{}
+0001 ( 387)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 29
+		==> 30
+L29: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 388)		STOREG1		<-	V(8 'si')+0 , CC:48	{}
+0001 ( 383)		JUMP		<-		{}
+		==> 25
+L30: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 389)		RELOP19	R0(B)[0..1]	<-	R7(C)[-128..255], CC:35	{}
+0001 ( 389)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 31
+		==> 32
+L31: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 390)		STOREG1		<-	V(8 'si')+7 , CB:1	{}
+0001 ( 383)		JUMP		<-		{}
+		==> 25
+L32: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 391)		RELOP19	R0(B)[0..1]	<-	R7(C)[-128..255], CC:45	{}
+0001 ( 391)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 33
+		==> 26
+L33: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 392)		STOREG1		<-	V(8 'si')+6 , CB:1	{}
+0001 ( 383)		JUMP		<-		{}
+		==> 25
+L26: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 398)		RELOP25	R0(B)[0..1]	<-	R7(C)[-128..255], CC:48	{}
+0001 ( 398)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 36
+		==> 35
+L36: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 398)		RELOP26	R0(B)[0..1]	<-	R7(C)[48..], CC:57	{}
+0001 ( 398)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 34
+		==> 35
+L34: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 401)		CONV37	R0(I)[48..57]	<-	R7(CF)[48..57]	{}
+0001 ( 400)		CONST	R4(C)[0..0]	<-	CI:0	{}
+0002 ( 403)		JUMP		<-		{}
+		==> 38
+L38: <= D-1: (2) Head P4210 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 403)		CONV37	R4(I)[0..255]	<-	R4(CF)[0..2559]	{}
+0001 ( 403)		BINOP3	R4(I)[0..2550]	<-	R4(IF)[0..255], CI:10	{}
+0002 ( 403)		BINOP1	R0(I)[48..2607]	<-	R4(IF)[0..2550], R0(IF)[48..57]	{}
+0003 ( 403)		BINOP2	R4(I)[0..2559]	<-	R0(IF)[48..2607], CI:48	{}
+0004 ( 404)		LOADI1	R7(C)[-128..255]	<-	R2(P)+0	{}
+0005 ( 404)		LEAI	R2(P)+0	<-	R2(PF)+0, CI:1	{}
+0006 ( 401)		RELOP25	R0(B)[0..1]	<-	R7(C)[-128..255], CC:48	{}
+0007 ( 401)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 40
+		==> 39
+L40: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 401)		CONV37	R0(I)[48..255]	<-	R7(C)[48..255]	{}
+0001 ( 401)		RELOP26	R5(B)[0..1]	<-	R7(C)[48..255], CC:57	{}
+0002 ( 401)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 38
+		==> 39
+L39: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 406)		STOREG1		<-	V(8 'si')+1 , R4(CF)[0..2559]	{}
+0001 ( 409)		JUMP		<-		{}
+		==> 35
+L35: <= D-1: (3)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 409)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:46	{}
+0001 ( 409)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 41
+		==> 42
+L41: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 411)		CONST	R0(C)[0..0]	<-	CI:0	{}
+0001 ( 416)		JUMP		<-		{}
+		==> 2656
+L2656: <= D-1: (2) Head P4209 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 416)		LOADI1	R7(C)[-128..255]	<-	R2(P)+0	{}
+0001 ( 416)		LEAI	R2(P)+0	<-	R2(PF)+0, CI:1	{}
+0002 ( 413)		RELOP25	R4(B)[0..1]	<-	R7(C)[-128..255], CC:48	{}
+0003 ( 413)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 46
+		==> 45
+L46: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 413)		RELOP26	R4(B)[0..1]	<-	R7(C)[48..255], CC:57	{}
+0001 ( 413)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 44
+		==> 45
+L44: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 413)		CONV37	R4(I)[48..57]	<-	R7(CF)[48..57]	{}
+0001 ( 415)		CONV37	R0(I)[0..255]	<-	R0(CF)[0..2559]	{}
+0002 ( 415)		BINOP3	R0(I)[0..2550]	<-	R0(IF)[0..255], CI:10	{}
+0003 ( 415)		BINOP1	R0(I)[48..2607]	<-	R0(IF)[0..2550], R4(IF)[48..57]	{}
+0004 ( 415)		BINOP2	R0(I)[0..2559]	<-	R0(IF)[48..2607], CI:48	{}
+0005 ( 413)		JUMP		<-		{}
+		==> 2656
+L45: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 418)		STOREG1		<-	V(8 'si')+2 , R0(CF)[0..2559]	{}
+0001 ( 421)		JUMP		<-		{}
+		==> 42
+L42: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 421)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:100	{}
+0001 ( 421)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 47
+		==> 51
+L47: <= D-1: (4)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 423)		LOADI2	R0(I)[-32768..65535]	<-	R3(P)+0 {V(0 '')} [2..]	{}
+0001 (  86)		RELOP24	R1(B)[0..1]	<-	R0(I)[-32768..65535], CI:0	{}
+0002 (  86)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 52
+		==> 53
+L52: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  89)		UNOP11	R0(I)[1..32768]	<-	R0(IF)[-32768..-1]	{}
+0001 (  88)		CONST	R5(B)[1..1]	<-	CI:1	{}
+0002 (  93)		JUMP		<-		{}
+		==> 371
+L371: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  92)		CONST	R6(C)[16..16]	<-	CI:16	{}
+0001 ( 423)		LEAI	R3(P)+0 {V(0 '')} [4..]	<-	R3(PF)+0 {V(0 '')} [2..], CI:2	{}
+0002 (  93)		JUMP		<-		{}
+		==> 2662
+L2662: <= D-1: (2) Head P4163 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  93)		RELOP27	R1(B)[0..1]	<-	R0(I)[0..32768], CI:0	{}
+0001 (  93)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 56
+		==> 57
+L56: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  95)		BINOP6	R1(I)[0..9]	<-	R0(I)[1..32768], CI:10	{}
+0001 (  98)		BINOP4	R0(I)[0..3276]	<-	R0(IF)[1..32768], CI:10	{}
+0002 (  96)		BINOP1	R1(I)[48..57]	<-	R1(IF)[0..9], CI:48	{}
+0003 (  97)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0004 (  97)		CONV37	R4(I)[0..15]	<-	R6(C)[0..15]	{}
+0005 (  97)		LEAG	R4(P)[0..15]	<-	V(19 'buffer' A)+0 , R4(IF)[0..15]	{}
+0006 (  97)		STOREI1		<-	R4(PF)+0 {V(19 'buffer' A)} [0..15], R1(CF)[48..57]	{}
+0007 (  93)		JUMP		<-		{}
+		==> 2662
+L57: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+2 	{}
+0001 ( 101)		RELOP20	R1(B)[0..1]	<-	R0(C)[-128..255], CC:255	{}
+0002 ( 101)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 1540
+		==> 1541
+L1540: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0001 ( 101)		BINOP2	R0(I)[-239..16]	<-	CI:16, R0(IF)[0..255]	{}
+0002 ( 101)		JUMP		<-		{}
+		==> 1542
+L1542: <= D-1: (3) Head P4162 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 103)		RELOP27	R1(B)[0..1]	<-	R6(C)[0..16], R0(C)[-239..16]	{}
+0001 ( 103)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 59
+		==> 60
+L59: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 104)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0001 ( 104)		CONV37	R1(I)[0..15]	<-	R6(C)[0..15]	{}
+0002 ( 104)		LEAG	R1(P)[0..15]	<-	V(19 'buffer' A)+0 , R1(IF)[0..15]	{}
+0003 ( 104)		STOREI1		<-	R1(PF)+0 {V(19 'buffer' A)} [0..15], CC:48	{}
+0004 ( 103)		JUMP		<-		{}
+		==> 1542
+L60: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 117)		CONST	R4(C)[0..0]	<-	CI:0	{}
+0001 ( 112)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 64
+		==> 65
+L64: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 113)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0001 ( 113)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0002 ( 113)		LEAG	R0(P)[0..15]	<-	V(19 'buffer' A)+0 , R0(IF)[0..15]	{}
+0003 ( 113)		STOREI1		<-	R0(PF)+0 {V(19 'buffer' A)} [0..15], CC:45	{}
+0004 ( 118)		JUMP		<-		{}
+		==> 2667
+L2667: <= D-1: (3)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 118)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 118)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 367
+		==> 73
+L367: <= D-1: (2) Head P4159 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 120)		RELOP28	R0(B)[0..1]	<-	R6(C)[0..16], CC:16	{}
+0001 ( 120)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 70
+		==> 71
+L70: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 121)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0001 ( 121)		LEAG	R0(P)[0..15]	<-	V(19 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 121)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(19 'buffer' A)} [0..15]	{}
+0003 ( 121)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 121)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 121)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 121)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 121)		BINOP1	R6(C)[1..16]	<-	R6(CF)[0..15], CI:1	{}
+0008 ( 120)		JUMP		<-		{}
+		==> 367
+L71: <= D-1: (2) Head P4158 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 122)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0001 ( 122)		RELOP28	R0(B)[0..1]	<-	R4(C)[0..50], R0(CF)[-128..255]	{}
+0002 ( 122)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 72
+		==> 68
+L72: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 122)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0001 ( 123)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0002 ( 123)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0003 ( 123)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0004 ( 123)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0005 ( 122)		JUMP		<-		{}
+		==> 71
+L68: <= D-1: (12)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 133)		CONV37	R1(I)[0..50]	<-	R4(CF)[0..50]	{}
+0001 ( 421)		JUMP		<-		{}
+		==> 2
+L2: <= D-1: (10)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 358)		LOADI1	R4(C)[-128..255]	<-	R2(P)+0	{}
+0001 ( 358)		LEAI	R2(P)+0	<-	R2(PF)+0, CI:1	{}
+0002 ( 358)		BRANCH		<-	R4(C)[-128..255]	{}
+		==> 3
+		==> 4
+L4: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 536)		CONV37	R0(I)[0..49]	<-	R1(C)[0..49]	{}
+0001 ( 536)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0002 ( 536)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], CC:0	{}
+0003 ( 537)		BRANCH		<-	R1(CF)[0..49]	{}
+		==> 349
+		==> 1
+L349: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		LOADG1	R0(C)[-128..255]	<-	V(7 'buff' A)+0 	{}
+0001 (  18)		BRANCH		<-	R0(C)[-128..255]	{}
+		==> 1893
+		==> 1
+L1893: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		CONST	R1(C)[1..1]	<-	CI:1	{}
+0001 ( 206)		JUMP		<-		{}
+		==> 351
+L351: <= D-1: (2) Head P4157 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 206)		RELOP19	R2(B)[0..1]	<-	R0(C)[-128..255], CC:10	{}
+0001 ( 206)		BRANCH		<-	R2(BF)[0..1]	{}
+		==> 354
+		==> 355
+L354: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 207)		CONST	R0(I)[13..13]	<-	CI:13	{S}
+0001 ( 239)		JUMP		<-		{}
+		==> 4320
+L4320: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R0(CF)[-128..255], V(-1 '')+0 	{}
+0001 ( 239)		JUMP		<-		{}
+		==> 350
+L350: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		LEAG	R0(P)[1..49]	<-	R1(C)[1..49]	{}
+0001 (  18)		LOADI1	R0(C)[-128..255]	<-	R0(PF)+0 {V(7 'buff' A)} [1..49]	{}
+0002 (  18)		BINOP1	R1(C) {V(7 'buff' A)} [2..50]	<-	R1(CF) {V(7 'buff' A)} [1..49], CI:1	{}
+0003 (  18)		BRANCH		<-	R0(C)[-128..255]	{}
+		==> 351
+		==> 1
+L1: <= D-1: (3)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 552)		RET		<-		{}
+L355: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 208)		RELOP19	R2(B)[0..1]	<-	R0(C)[-128..255], CC:9	{}
+0001 ( 208)		BRANCH		<-	R2(BF)[0..1]	{}
+		==> 356
+		==> 4320
+L356: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 413)		LOADA1	R0(C)[-128..255]	<-	V(-1 '')+211 	{V}
+0001 ( 210)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0002 ( 210)		BINOP9	R0(I)[0..3]	<-	R0(IF)[0..255], CI:3	{}
+0003 ( 212)		CONST	R2(C)[32..32]	<-	CI:32	{IS}
+0004 ( 193)		JUMP		<-		{}
+		==> 358
+L358: <= D-1: (2) Head P4156 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R2(C)[32..32], V(-1 '')+0 	{}
+0001 ( 213)		BINOP1	R0(C)[1..4]	<-	R0(CF)[0..3], CI:1	{}
+0002 ( 213)		RELOP28	R3(B)[0..1]	<-	R0(C)[1..4], CC:4	{}
+0003 ( 213)		BRANCH		<-	R3(BF)[0..1]	{}
+		==> 358
+		==> 350
+L73: <= D-1: (2) Head P4161 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 127)		CONV37	R1(I)[0..16]	<-	R6(C)[0..16]	{}
+0001 ( 127)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0002 ( 127)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0003 ( 127)		BINOP1	R0(I)[0..271]	<-	R0(IF)[0..255], R1(IF)[0..16]	{}
+0004 ( 127)		RELOP27	R0(B)[0..1]	<-	R0(IF)[0..271], CI:16	{}
+0005 ( 127)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 74
+		==> 368
+L74: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 128)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0001 ( 128)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0002 ( 128)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0003 ( 128)		LEAG	R0(P)[0..15]	<-	V(19 'buffer' A)+0 , R0(IF)[0..15]	{}
+0004 ( 128)		STOREI1		<-	R0(PF)+0 {V(19 'buffer' A)} [0..15], R1(CF)[-128..255]	{}
+0005 ( 127)		JUMP		<-		{}
+		==> 73
+L368: <= D-1: (2) Head P4160 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 129)		RELOP28	R0(B)[0..1]	<-	R6(C)[0..16], CC:16	{}
+0001 ( 129)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 76
+		==> 68
+L76: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 130)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0001 ( 130)		LEAG	R0(P)[0..15]	<-	V(19 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 130)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(19 'buffer' A)} [0..15]	{}
+0003 ( 130)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 130)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 130)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 130)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 130)		BINOP1	R6(C)[1..16]	<-	R6(CF)[0..15], CI:1	{}
+0008 ( 129)		JUMP		<-		{}
+		==> 368
+L65: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 114)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+5 	{}
+0001 ( 114)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 67
+		==> 2667
+L67: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 115)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0001 ( 115)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0002 ( 115)		LEAG	R0(P)[0..15]	<-	V(19 'buffer' A)+0 , R0(IF)[0..15]	{}
+0003 ( 115)		STOREI1		<-	R0(PF)+0 {V(19 'buffer' A)} [0..15], CC:43	{}
+0004 ( 118)		JUMP		<-		{}
+		==> 2667
+L1541: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		CONST	R0(I)[15..15]	<-	CI:15	{}
+0001 ( 101)		JUMP		<-		{}
+		==> 1542
+L53: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  84)		CONST	R5(B)[0..0]	<-	CI:0	{}
+0001 (  93)		JUMP		<-		{}
+		==> 371
+L51: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 421)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:68	{}
+0001 ( 421)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 47
+		==> 50
+L50: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 421)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:105	{}
+0001 ( 421)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 47
+		==> 49
+L49: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 421)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:73	{}
+0001 ( 421)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 47
+		==> 48
+L48: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 425)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:117	{}
+0001 ( 425)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 77
+		==> 79
+L77: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 427)		LOADI2	R0(I)[-32768..65535]	<-	R3(P)+0 {V(0 '')} [2..]	{}
+0001 ( 427)		LEAI	R3(P)+0 {V(0 '')} [4..]	<-	R3(PF)+0 {V(0 '')} [2..], CI:2	{}
+0002 (  92)		CONST	R5(C)[16..16]	<-	CI:16	{}
+0003 (  93)		JUMP		<-		{}
+		==> 2680
+L2680: <= D-1: (2) Head P4169 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  93)		RELOP27	R1(B)[0..1]	<-	R0(I)[-32768..], CI:0	{}
+0001 (  93)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 84
+		==> 85
+L84: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  95)		BINOP6	R1(I)[0..9]	<-	R0(I)[1..], CI:10	{}
+0001 (  98)		BINOP4	R0(I)[0..]	<-	R0(IF)[1..], CI:10	{}
+0002 (  96)		BINOP1	R1(I)[48..57]	<-	R1(IF)[0..9], CI:48	{}
+0003 (  97)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0004 (  97)		CONV37	R4(I)[0..15]	<-	R5(C)[0..15]	{}
+0005 (  97)		LEAG	R4(P)[0..15]	<-	V(24 'buffer' A)+0 , R4(IF)[0..15]	{}
+0006 (  97)		STOREI1		<-	R4(PF)+0 {V(24 'buffer' A)} [0..15], R1(CF)[48..57]	{}
+0007 (  93)		JUMP		<-		{}
+		==> 2680
+L85: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+2 	{}
+0001 ( 101)		RELOP20	R1(B)[0..1]	<-	R0(C)[-128..255], CC:255	{}
+0002 ( 101)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 1546
+		==> 1547
+L1546: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0001 ( 101)		BINOP2	R0(I)[-239..16]	<-	CI:16, R0(IF)[0..255]	{}
+0002 ( 101)		JUMP		<-		{}
+		==> 1548
+L1548: <= D-1: (3) Head P4168 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 103)		RELOP27	R1(B)[0..1]	<-	R5(C)[0..16], R0(C)[-239..16]	{}
+0001 ( 103)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 87
+		==> 88
+L87: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 104)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 104)		CONV37	R1(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 104)		LEAG	R1(P)[0..15]	<-	V(24 'buffer' A)+0 , R1(IF)[0..15]	{}
+0003 ( 104)		STOREI1		<-	R1(PF)+0 {V(24 'buffer' A)} [0..15], CC:48	{}
+0004 ( 103)		JUMP		<-		{}
+		==> 1548
+L88: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 117)		CONST	R4(C)[0..0]	<-	CI:0	{}
+0001 ( 114)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+5 	{}
+0002 ( 114)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 95
+		==> 2685
+L95: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 115)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 115)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 115)		LEAG	R0(P)[0..15]	<-	V(24 'buffer' A)+0 , R0(IF)[0..15]	{}
+0003 ( 115)		STOREI1		<-	R0(PF)+0 {V(24 'buffer' A)} [0..15], CC:43	{}
+0004 ( 118)		JUMP		<-		{}
+		==> 2685
+L2685: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 118)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 118)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 373
+		==> 101
+L373: <= D-1: (2) Head P4165 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 120)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..16], CC:16	{}
+0001 ( 120)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 98
+		==> 99
+L98: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 121)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0001 ( 121)		LEAG	R0(P)[0..15]	<-	V(24 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 121)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(24 'buffer' A)} [0..15]	{}
+0003 ( 121)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 121)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 121)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 121)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 121)		BINOP1	R5(C)[1..16]	<-	R5(CF)[0..15], CI:1	{}
+0008 ( 120)		JUMP		<-		{}
+		==> 373
+L99: <= D-1: (2) Head P4164 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 122)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0001 ( 122)		RELOP28	R0(B)[0..1]	<-	R4(C)[0..50], R0(CF)[-128..255]	{}
+0002 ( 122)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 100
+		==> 68
+L100: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 122)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0001 ( 123)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0002 ( 123)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0003 ( 123)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0004 ( 123)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0005 ( 122)		JUMP		<-		{}
+		==> 99
+L101: <= D-1: (2) Head P4167 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 127)		CONV37	R1(I)[0..16]	<-	R5(C)[0..16]	{}
+0001 ( 127)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0002 ( 127)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0003 ( 127)		BINOP1	R0(I)[0..271]	<-	R0(IF)[0..255], R1(IF)[0..16]	{}
+0004 ( 127)		RELOP27	R0(B)[0..1]	<-	R0(IF)[0..271], CI:16	{}
+0005 ( 127)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 102
+		==> 374
+L102: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 128)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 128)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 128)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0003 ( 128)		LEAG	R0(P)[0..15]	<-	V(24 'buffer' A)+0 , R0(IF)[0..15]	{}
+0004 ( 128)		STOREI1		<-	R0(PF)+0 {V(24 'buffer' A)} [0..15], R1(CF)[-128..255]	{}
+0005 ( 127)		JUMP		<-		{}
+		==> 101
+L374: <= D-1: (2) Head P4166 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 129)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..16], CC:16	{}
+0001 ( 129)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 104
+		==> 68
+L104: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 130)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0001 ( 130)		LEAG	R0(P)[0..15]	<-	V(24 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 130)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(24 'buffer' A)} [0..15]	{}
+0003 ( 130)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 130)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 130)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 130)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 130)		BINOP1	R5(C)[1..16]	<-	R5(CF)[0..15], CI:1	{}
+0008 ( 129)		JUMP		<-		{}
+		==> 374
+L1547: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		CONST	R0(I)[15..15]	<-	CI:15	{}
+0001 ( 101)		JUMP		<-		{}
+		==> 1548
+L79: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 425)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:85	{}
+0001 ( 425)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 77
+		==> 78
+L78: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 429)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:120	{}
+0001 ( 429)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 105
+		==> 107
+L105: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 431)		STOREG2		<-	V(8 'si')+3 , CI:16	{}
+0001 ( 432)		LOADI2	R0(I)[-32768..65535]	<-	R3(P)+0 {V(0 '')} [2..]	{}
+0002 ( 432)		LEAI	R3(P)+0 {V(0 '')} [4..]	<-	R3(PF)+0 {V(0 '')} [2..], CI:2	{}
+0003 (  92)		CONST	R5(C)[16..16]	<-	CI:16	{}
+0004 (  93)		JUMP		<-		{}
+		==> 2691
+L2691: <= D-1: (2) Head P4175 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  93)		RELOP27	R1(B)[0..1]	<-	R0(I)[-32768..65535], CI:0	{}
+0001 (  93)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 112
+		==> 113
+L112: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  95)		BINOP9	R1(I)[0..15]	<-	R0(I)[1..], CI:15	{}
+0001 (  96)		RELOP25	R4(B)[0..1]	<-	R1(I)[0..15], CI:10	{}
+0002 (  96)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 1549
+		==> 1550
+L1549: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  96)		CONST	R4(I)[55..55]	<-	CI:55	{}
+0001 (  96)		JUMP		<-		{}
+		==> 1551
+L1551: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  96)		BINOP1	R1(I)[48..70]	<-	R4(IF)[48..55], R1(IF)[0..15]	{}
+0001 (  97)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0002 (  97)		CONV37	R4(I)[0..15]	<-	R5(C)[0..15]	{}
+0003 (  97)		LEAG	R4(P)[0..15]	<-	V(29 'buffer' A)+0 , R4(IF)[0..15]	{}
+0004 (  97)		STOREI1		<-	R4(PF)+0 {V(29 'buffer' A)} [0..15], R1(CF)[48..70]	{}
+0005 (  98)		BINOP17	R0(I)[0..4095]	<-	R0(IF)[1..], CI:4	{}
+0006 (  93)		JUMP		<-		{}
+		==> 2691
+L1550: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  96)		CONST	R4(I)[48..48]	<-	CI:48	{}
+0001 (  96)		JUMP		<-		{}
+		==> 1551
+L113: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+2 	{}
+0001 ( 101)		RELOP20	R1(B)[0..1]	<-	R0(C)[-128..255], CC:255	{}
+0002 ( 101)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 1552
+		==> 1553
+L1552: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0001 ( 101)		BINOP2	R0(I)[-239..16]	<-	CI:16, R0(IF)[0..255]	{}
+0002 ( 101)		JUMP		<-		{}
+		==> 1554
+L1554: <= D-1: (3) Head P4174 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 103)		RELOP27	R1(B)[0..1]	<-	R5(C)[0..16], R0(C)[-239..16]	{}
+0001 ( 103)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 115
+		==> 116
+L115: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 104)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 104)		CONV37	R1(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 104)		LEAG	R1(P)[0..15]	<-	V(29 'buffer' A)+0 , R1(IF)[0..15]	{}
+0003 ( 104)		STOREI1		<-	R1(PF)+0 {V(29 'buffer' A)} [0..15], CC:48	{}
+0004 ( 103)		JUMP		<-		{}
+		==> 1554
+L116: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 106)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+7 	{}
+0001 ( 106)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 119
+		==> 121
+L119: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 108)		CONV37	R0(I)[2..16]	<-	R5(C)[2..16]	{}
+0001 ( 108)		LEAG	R0(P)[1..15]	<-	V(29 'buffer' A)+-1 , R0(IF)[2..16]	{}
+0002 ( 108)		STOREI1		<-	R0(PF)+0 {V(29 'buffer' A)} [1..15], CC:88	{}
+0003 ( 109)		BINOP1	R5(C)[0..14]	<-	R5(CF)[2..16], CI:-2	{}
+0004 ( 109)		CONV37	R0(I)[0..14]	<-	R5(C)[0..14]	{}
+0005 ( 109)		LEAG	R0(P)[0..14]	<-	V(29 'buffer' A)+0 , R0(IF)[0..14]	{}
+0006 ( 109)		STOREI1		<-	R0(PF)+0 {V(29 'buffer' A)} [0..14], CC:48	{}
+0007 ( 112)		JUMP		<-		{}
+		==> 121
+L121: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 117)		CONST	R4(C)[0..0]	<-	CI:0	{}
+0001 ( 114)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+5 	{}
+0002 ( 114)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 123
+		==> 2698
+L123: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 115)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 115)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 115)		LEAG	R0(P)[0..15]	<-	V(29 'buffer' A)+0 , R0(IF)[0..15]	{}
+0003 ( 115)		STOREI1		<-	R0(PF)+0 {V(29 'buffer' A)} [0..15], CC:43	{}
+0004 ( 118)		JUMP		<-		{}
+		==> 2698
+L2698: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 118)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 118)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 379
+		==> 129
+L379: <= D-1: (2) Head P4171 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 120)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..16], CC:16	{}
+0001 ( 120)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 126
+		==> 127
+L126: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 121)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0001 ( 121)		LEAG	R0(P)[0..15]	<-	V(29 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 121)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(29 'buffer' A)} [0..15]	{}
+0003 ( 121)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 121)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 121)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 121)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 121)		BINOP1	R5(C)[1..16]	<-	R5(CF)[0..15], CI:1	{}
+0008 ( 120)		JUMP		<-		{}
+		==> 379
+L127: <= D-1: (2) Head P4170 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 122)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0001 ( 122)		RELOP28	R0(B)[0..1]	<-	R4(C)[0..50], R0(CF)[-128..255]	{}
+0002 ( 122)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 128
+		==> 68
+L128: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 122)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0001 ( 123)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0002 ( 123)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0003 ( 123)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0004 ( 123)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0005 ( 122)		JUMP		<-		{}
+		==> 127
+L129: <= D-1: (2) Head P4173 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 127)		CONV37	R1(I)[0..16]	<-	R5(C)[0..16]	{}
+0001 ( 127)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0002 ( 127)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0003 ( 127)		BINOP1	R0(I)[0..271]	<-	R0(IF)[0..255], R1(IF)[0..16]	{}
+0004 ( 127)		RELOP27	R0(B)[0..1]	<-	R0(IF)[0..271], CI:16	{}
+0005 ( 127)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 130
+		==> 380
+L130: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 128)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 128)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 128)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0003 ( 128)		LEAG	R0(P)[0..15]	<-	V(29 'buffer' A)+0 , R0(IF)[0..15]	{}
+0004 ( 128)		STOREI1		<-	R0(PF)+0 {V(29 'buffer' A)} [0..15], R1(CF)[-128..255]	{}
+0005 ( 127)		JUMP		<-		{}
+		==> 129
+L380: <= D-1: (2) Head P4172 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 129)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..16], CC:16	{}
+0001 ( 129)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 132
+		==> 68
+L132: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 130)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0001 ( 130)		LEAG	R0(P)[0..15]	<-	V(29 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 130)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(29 'buffer' A)} [0..15]	{}
+0003 ( 130)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 130)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 130)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 130)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 130)		BINOP1	R5(C)[1..16]	<-	R5(CF)[0..15], CI:1	{}
+0008 ( 129)		JUMP		<-		{}
+		==> 380
+L1553: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 101)		CONST	R0(I)[15..15]	<-	CI:15	{}
+0001 ( 101)		JUMP		<-		{}
+		==> 1554
+L107: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 429)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:88	{}
+0001 ( 429)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 105
+		==> 106
+L106: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 435)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:108	{}
+0001 ( 435)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 133
+		==> 135
+L133: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 437)		LOADI4	R0(L)	<-	R3(P)+0 {V(0 '')} [2..]	{}
+0001 ( 439)		LEAI	R3(P)+0 {V(0 '')} [6..]	<-	R3(PF)+0 {V(0 '')} [2..], CI:4	{}
+0002 ( 441)		LOADI1	R4(C)[-128..255]	<-	R2(P)+0	{}
+0003 ( 441)		LEAI	R2(P)+0	<-	R2(PF)+0, CI:1	{}
+0004 ( 442)		RELOP19	R5(B)[0..1]	<-	R4(C)[-128..255], CC:100	{}
+0005 ( 442)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 136
+		==> 138
+L136: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 143)		RELOP24	R1(B)[0..1]	<-	R0(L), CL:0	{}
+0001 ( 143)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 139
+		==> 140
+L139: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 146)		UNOP11	R0(L)[1..?]	<-	R0(LF)[?..-1]	{}
+0001 ( 145)		CONST	R5(B)[1..1]	<-	CI:1	{}
+0002 ( 151)		JUMP		<-		{}
+		==> 389
+L389: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 149)		CONST	R6(C)[16..16]	<-	CI:16	{}
+0001 ( 151)		JUMP		<-		{}
+		==> 2705
+L2705: <= D-1: (2) Head P4181 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 151)		RELOP27	R1(B)[0..1]	<-	R0(L)[0..?], CL:0	{}
+0001 ( 151)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 143
+		==> 144
+L143: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 153)		BINOP6	R1(L)[0..9]	<-	R0(L)[1..?], CL:10	{}
+0001 ( 156)		BINOP4	R0(L)[0..?]	<-	R0(LF)[1..?], CL:10	{}
+0002 ( 154)		BINOP1	R1(I)[48..57]	<-	R1(IF)[0..9], CI:48	{}
+0003 ( 155)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0004 ( 155)		CONV37	R4(I)[0..15]	<-	R6(C)[0..15]	{}
+0005 ( 155)		LEAG	R4(P)[0..15]	<-	V(34 'buffer' A)+0 , R4(IF)[0..15]	{}
+0006 ( 155)		STOREI1		<-	R4(PF)+0 {V(34 'buffer' A)} [0..15], R1(CF)[48..57]	{}
+0007 ( 151)		JUMP		<-		{}
+		==> 2705
+L144: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+2 	{}
+0001 ( 159)		RELOP20	R1(B)[0..1]	<-	R0(C)[-128..255], CC:255	{}
+0002 ( 159)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 1558
+		==> 1559
+L1558: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0001 ( 159)		BINOP2	R0(I)[-239..16]	<-	CI:16, R0(IF)[0..255]	{}
+0002 ( 159)		JUMP		<-		{}
+		==> 1560
+L1560: <= D-1: (3) Head P4180 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 161)		RELOP27	R1(B)[0..1]	<-	R6(C)[0..16], R0(C)[-239..16]	{}
+0001 ( 161)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 146
+		==> 147
+L146: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 162)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0001 ( 162)		CONV37	R1(I)[0..15]	<-	R6(C)[0..15]	{}
+0002 ( 162)		LEAG	R1(P)[0..15]	<-	V(34 'buffer' A)+0 , R1(IF)[0..15]	{}
+0003 ( 162)		STOREI1		<-	R1(PF)+0 {V(34 'buffer' A)} [0..15], CC:48	{}
+0004 ( 161)		JUMP		<-		{}
+		==> 1560
+L147: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 175)		CONST	R4(C)[0..0]	<-	CI:0	{}
+0001 ( 170)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 151
+		==> 152
+L151: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 171)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0001 ( 171)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0002 ( 171)		LEAG	R0(P)[0..15]	<-	V(34 'buffer' A)+0 , R0(IF)[0..15]	{}
+0003 ( 171)		STOREI1		<-	R0(PF)+0 {V(34 'buffer' A)} [0..15], CC:45	{}
+0004 ( 176)		JUMP		<-		{}
+		==> 2710
+L2710: <= D-1: (3)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 176)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 176)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 385
+		==> 160
+L385: <= D-1: (2) Head P4177 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 178)		RELOP28	R0(B)[0..1]	<-	R6(C)[0..16], CC:16	{}
+0001 ( 178)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 157
+		==> 158
+L157: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 179)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0001 ( 179)		LEAG	R0(P)[0..15]	<-	V(34 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 179)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(34 'buffer' A)} [0..15]	{}
+0003 ( 179)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 179)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 179)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 179)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 179)		BINOP1	R6(C)[1..16]	<-	R6(CF)[0..15], CI:1	{}
+0008 ( 178)		JUMP		<-		{}
+		==> 385
+L158: <= D-1: (2) Head P4176 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 180)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0001 ( 180)		RELOP28	R0(B)[0..1]	<-	R4(C)[0..50], R0(CF)[-128..255]	{}
+0002 ( 180)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 159
+		==> 68
+L159: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 180)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0001 ( 181)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0002 ( 181)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0003 ( 181)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0004 ( 181)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0005 ( 180)		JUMP		<-		{}
+		==> 158
+L160: <= D-1: (2) Head P4179 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 185)		CONV37	R1(I)[0..16]	<-	R6(C)[0..16]	{}
+0001 ( 185)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0002 ( 185)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0003 ( 185)		BINOP1	R0(I)[0..271]	<-	R0(IF)[0..255], R1(IF)[0..16]	{}
+0004 ( 185)		RELOP27	R0(B)[0..1]	<-	R0(IF)[0..271], CI:16	{}
+0005 ( 185)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 161
+		==> 386
+L161: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 186)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0001 ( 186)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0002 ( 186)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0003 ( 186)		LEAG	R0(P)[0..15]	<-	V(34 'buffer' A)+0 , R0(IF)[0..15]	{}
+0004 ( 186)		STOREI1		<-	R0(PF)+0 {V(34 'buffer' A)} [0..15], R1(CF)[-128..255]	{}
+0005 ( 185)		JUMP		<-		{}
+		==> 160
+L386: <= D-1: (2) Head P4178 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 187)		RELOP28	R0(B)[0..1]	<-	R6(C)[0..16], CC:16	{}
+0001 ( 187)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 163
+		==> 68
+L163: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 188)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0001 ( 188)		LEAG	R0(P)[0..15]	<-	V(34 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 188)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(34 'buffer' A)} [0..15]	{}
+0003 ( 188)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 188)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 188)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 188)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 188)		BINOP1	R6(C)[1..16]	<-	R6(CF)[0..15], CI:1	{}
+0008 ( 187)		JUMP		<-		{}
+		==> 386
+L152: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 172)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+5 	{}
+0001 ( 172)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 154
+		==> 2710
+L154: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 173)		BINOP1	R6(C)[0..15]	<-	R6(CF)[1..16], CI:-1	{}
+0001 ( 173)		CONV37	R0(I)[0..15]	<-	R6(C)[0..15]	{}
+0002 ( 173)		LEAG	R0(P)[0..15]	<-	V(34 'buffer' A)+0 , R0(IF)[0..15]	{}
+0003 ( 173)		STOREI1		<-	R0(PF)+0 {V(34 'buffer' A)} [0..15], CC:43	{}
+0004 ( 176)		JUMP		<-		{}
+		==> 2710
+L1559: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		CONST	R0(I)[15..15]	<-	CI:15	{}
+0001 ( 159)		JUMP		<-		{}
+		==> 1560
+L140: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 141)		CONST	R5(B)[0..0]	<-	CI:0	{}
+0001 ( 151)		JUMP		<-		{}
+		==> 389
+L138: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 442)		RELOP19	R5(B)[0..1]	<-	R4(C)[-128..255], CC:68	{}
+0001 ( 442)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 136
+		==> 137
+L137: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 446)		RELOP19	R5(B)[0..1]	<-	R4(C)[-128..255], CC:117	{}
+0001 ( 446)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 164
+		==> 166
+L164: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 149)		CONST	R5(C)[16..16]	<-	CI:16	{}
+0001 ( 151)		JUMP		<-		{}
+		==> 2931
+L2931: <= D-1: (2) Head P4187 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 151)		RELOP27	R1(B)[0..1]	<-	R0(L)[~0..?], CL:0	{}
+0001 ( 151)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 171
+		==> 172
+L171: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 153)		BINOP6	R1(L)[0..9]	<-	R0(L)[1..?], CL:10	{}
+0001 ( 156)		BINOP4	R0(L)[0..?]	<-	R0(LF)[1..?], CL:10	{}
+0002 ( 154)		BINOP1	R1(I)[48..57]	<-	R1(IF)[0..9], CI:48	{}
+0003 ( 155)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0004 ( 155)		CONV37	R4(I)[0..15]	<-	R5(C)[0..15]	{}
+0005 ( 155)		LEAG	R4(P)[0..15]	<-	V(39 'buffer' A)+0 , R4(IF)[0..15]	{}
+0006 ( 155)		STOREI1		<-	R4(PF)+0 {V(39 'buffer' A)} [0..15], R1(CF)[48..57]	{}
+0007 ( 151)		JUMP		<-		{}
+		==> 2931
+L172: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+2 	{}
+0001 ( 159)		RELOP20	R1(B)[0..1]	<-	R0(C)[-128..255], CC:255	{}
+0002 ( 159)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 1564
+		==> 1565
+L1564: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0001 ( 159)		BINOP2	R0(I)[-239..16]	<-	CI:16, R0(IF)[0..255]	{}
+0002 ( 159)		JUMP		<-		{}
+		==> 1566
+L1566: <= D-1: (3) Head P4186 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 161)		RELOP27	R1(B)[0..1]	<-	R5(C)[0..16], R0(C)[-239..16]	{}
+0001 ( 161)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 174
+		==> 175
+L174: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 162)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 162)		CONV37	R1(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 162)		LEAG	R1(P)[0..15]	<-	V(39 'buffer' A)+0 , R1(IF)[0..15]	{}
+0003 ( 162)		STOREI1		<-	R1(PF)+0 {V(39 'buffer' A)} [0..15], CC:48	{}
+0004 ( 161)		JUMP		<-		{}
+		==> 1566
+L175: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 175)		CONST	R4(C)[0..0]	<-	CI:0	{}
+0001 ( 172)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+5 	{}
+0002 ( 172)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 182
+		==> 2723
+L182: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 173)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 173)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 173)		LEAG	R0(P)[0..15]	<-	V(39 'buffer' A)+0 , R0(IF)[0..15]	{}
+0003 ( 173)		STOREI1		<-	R0(PF)+0 {V(39 'buffer' A)} [0..15], CC:43	{}
+0004 ( 176)		JUMP		<-		{}
+		==> 2723
+L2723: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 176)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 176)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 391
+		==> 188
+L391: <= D-1: (2) Head P4183 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 178)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..16], CC:16	{}
+0001 ( 178)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 185
+		==> 186
+L185: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 179)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0001 ( 179)		LEAG	R0(P)[0..15]	<-	V(39 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 179)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(39 'buffer' A)} [0..15]	{}
+0003 ( 179)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 179)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 179)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 179)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 179)		BINOP1	R5(C)[1..16]	<-	R5(CF)[0..15], CI:1	{}
+0008 ( 178)		JUMP		<-		{}
+		==> 391
+L186: <= D-1: (2) Head P4182 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 180)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0001 ( 180)		RELOP28	R0(B)[0..1]	<-	R4(C)[0..50], R0(CF)[-128..255]	{}
+0002 ( 180)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 187
+		==> 68
+L187: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 180)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0001 ( 181)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0002 ( 181)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0003 ( 181)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0004 ( 181)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0005 ( 180)		JUMP		<-		{}
+		==> 186
+L188: <= D-1: (2) Head P4185 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 185)		CONV37	R1(I)[0..16]	<-	R5(C)[0..16]	{}
+0001 ( 185)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0002 ( 185)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0003 ( 185)		BINOP1	R0(I)[0..271]	<-	R0(IF)[0..255], R1(IF)[0..16]	{}
+0004 ( 185)		RELOP27	R0(B)[0..1]	<-	R0(IF)[0..271], CI:16	{}
+0005 ( 185)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 189
+		==> 392
+L189: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 186)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 186)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 186)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0003 ( 186)		LEAG	R0(P)[0..15]	<-	V(39 'buffer' A)+0 , R0(IF)[0..15]	{}
+0004 ( 186)		STOREI1		<-	R0(PF)+0 {V(39 'buffer' A)} [0..15], R1(CF)[-128..255]	{}
+0005 ( 185)		JUMP		<-		{}
+		==> 188
+L392: <= D-1: (2) Head P4184 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 187)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..16], CC:16	{}
+0001 ( 187)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 191
+		==> 68
+L191: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 188)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0001 ( 188)		LEAG	R0(P)[0..15]	<-	V(39 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 188)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(39 'buffer' A)} [0..15]	{}
+0003 ( 188)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 188)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 188)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 188)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 188)		BINOP1	R5(C)[1..16]	<-	R5(CF)[0..15], CI:1	{}
+0008 ( 187)		JUMP		<-		{}
+		==> 392
+L1565: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		CONST	R0(I)[15..15]	<-	CI:15	{}
+0001 ( 159)		JUMP		<-		{}
+		==> 1566
+L166: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 446)		RELOP19	R5(B)[0..1]	<-	R4(C)[-128..255], CC:85	{}
+0001 ( 446)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 164
+		==> 165
+L165: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 450)		RELOP19	R5(B)[0..1]	<-	R4(C)[-128..255], CC:120	{}
+0001 ( 450)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 192
+		==> 193
+L192: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 452)		STOREG2		<-	V(8 'si')+3 , CI:16	{}
+0001 ( 149)		CONST	R5(C)[16..16]	<-	CI:16	{}
+0002 ( 151)		JUMP		<-		{}
+		==> 2938
+L2938: <= D-1: (2) Head P4193 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 151)		RELOP27	R1(B)[0..1]	<-	R0(L)[~0..?], CL:0	{}
+0001 ( 151)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 198
+		==> 199
+L198: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 153)		BINOP9	R1(L)[0..15]	<-	R0(L)[1..?], CL:15	{}
+0001 ( 154)		RELOP25	R4(B)[0..1]	<-	R1(I)[0..15], CI:10	{}
+0002 ( 154)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 1567
+		==> 1568
+L1567: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 154)		CONST	R4(I)[55..55]	<-	CI:55	{}
+0001 ( 154)		JUMP		<-		{}
+		==> 1569
+L1569: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 154)		BINOP1	R1(I)[48..70]	<-	R4(IF)[48..55], R1(IF)[0..15]	{}
+0001 ( 155)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0002 ( 155)		CONV37	R4(I)[0..15]	<-	R5(C)[0..15]	{}
+0003 ( 155)		LEAG	R4(P)[0..15]	<-	V(44 'buffer' A)+0 , R4(IF)[0..15]	{}
+0004 ( 155)		STOREI1		<-	R4(PF)+0 {V(44 'buffer' A)} [0..15], R1(CF)[48..70]	{}
+0005 ( 156)		BINOP17	R0(L)[0..268435456]	<-	R0(LF)[1..?], CL:4	{}
+0006 ( 151)		JUMP		<-		{}
+		==> 2938
+L1568: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 154)		CONST	R4(I)[48..48]	<-	CI:48	{}
+0001 ( 154)		JUMP		<-		{}
+		==> 1569
+L199: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+2 	{}
+0001 ( 159)		RELOP20	R1(B)[0..1]	<-	R0(C)[-128..255], CC:255	{}
+0002 ( 159)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 1570
+		==> 1571
+L1570: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0001 ( 159)		BINOP2	R0(I)[-239..16]	<-	CI:16, R0(IF)[0..255]	{}
+0002 ( 159)		JUMP		<-		{}
+		==> 1572
+L1572: <= D-1: (3) Head P4192 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 161)		RELOP27	R1(B)[0..1]	<-	R5(C)[0..16], R0(C)[-239..16]	{}
+0001 ( 161)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 201
+		==> 202
+L201: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 162)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 162)		CONV37	R1(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 162)		LEAG	R1(P)[0..15]	<-	V(44 'buffer' A)+0 , R1(IF)[0..15]	{}
+0003 ( 162)		STOREI1		<-	R1(PF)+0 {V(44 'buffer' A)} [0..15], CC:48	{}
+0004 ( 161)		JUMP		<-		{}
+		==> 1572
+L202: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 164)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+7 	{}
+0001 ( 164)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 205
+		==> 207
+L205: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 166)		CONV37	R0(I)[2..16]	<-	R5(C)[2..16]	{}
+0001 ( 166)		LEAG	R0(P)[1..15]	<-	V(44 'buffer' A)+-1 , R0(IF)[2..16]	{}
+0002 ( 166)		STOREI1		<-	R0(PF)+0 {V(44 'buffer' A)} [1..15], CC:88	{}
+0003 ( 167)		BINOP1	R5(C)[0..14]	<-	R5(CF)[2..16], CI:-2	{}
+0004 ( 167)		CONV37	R0(I)[0..14]	<-	R5(C)[0..14]	{}
+0005 ( 167)		LEAG	R0(P)[0..14]	<-	V(44 'buffer' A)+0 , R0(IF)[0..14]	{}
+0006 ( 167)		STOREI1		<-	R0(PF)+0 {V(44 'buffer' A)} [0..14], CC:48	{}
+0007 ( 170)		JUMP		<-		{}
+		==> 207
+L207: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 175)		CONST	R4(C)[0..0]	<-	CI:0	{}
+0001 ( 172)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+5 	{}
+0002 ( 172)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 209
+		==> 2736
+L209: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 173)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 173)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 173)		LEAG	R0(P)[0..15]	<-	V(44 'buffer' A)+0 , R0(IF)[0..15]	{}
+0003 ( 173)		STOREI1		<-	R0(PF)+0 {V(44 'buffer' A)} [0..15], CC:43	{}
+0004 ( 176)		JUMP		<-		{}
+		==> 2736
+L2736: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 176)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 176)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 397
+		==> 215
+L397: <= D-1: (2) Head P4189 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 178)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..16], CC:16	{}
+0001 ( 178)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 212
+		==> 213
+L212: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 179)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0001 ( 179)		LEAG	R0(P)[0..15]	<-	V(44 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 179)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(44 'buffer' A)} [0..15]	{}
+0003 ( 179)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 179)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 179)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 179)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 179)		BINOP1	R5(C)[1..16]	<-	R5(CF)[0..15], CI:1	{}
+0008 ( 178)		JUMP		<-		{}
+		==> 397
+L213: <= D-1: (2) Head P4188 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 180)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0001 ( 180)		RELOP28	R0(B)[0..1]	<-	R4(C)[0..50], R0(CF)[-128..255]	{}
+0002 ( 180)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 214
+		==> 68
+L214: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 180)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0001 ( 181)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0002 ( 181)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0003 ( 181)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0004 ( 181)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0005 ( 180)		JUMP		<-		{}
+		==> 213
+L215: <= D-1: (2) Head P4191 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 185)		CONV37	R1(I)[0..16]	<-	R5(C)[0..16]	{}
+0001 ( 185)		LOADG1	R0(C)[-128..255]	<-	V(8 'si')+1 	{}
+0002 ( 185)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0003 ( 185)		BINOP1	R0(I)[0..271]	<-	R0(IF)[0..255], R1(IF)[0..16]	{}
+0004 ( 185)		RELOP27	R0(B)[0..1]	<-	R0(IF)[0..271], CI:16	{}
+0005 ( 185)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 216
+		==> 398
+L216: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 186)		BINOP1	R5(C)[0..15]	<-	R5(CF)[1..16], CI:-1	{}
+0001 ( 186)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0002 ( 186)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+0 	{}
+0003 ( 186)		LEAG	R0(P)[0..15]	<-	V(44 'buffer' A)+0 , R0(IF)[0..15]	{}
+0004 ( 186)		STOREI1		<-	R0(PF)+0 {V(44 'buffer' A)} [0..15], R1(CF)[-128..255]	{}
+0005 ( 185)		JUMP		<-		{}
+		==> 215
+L398: <= D-1: (2) Head P4190 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 187)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..16], CC:16	{}
+0001 ( 187)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 218
+		==> 68
+L218: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 188)		CONV37	R0(I)[0..15]	<-	R5(C)[0..15]	{}
+0001 ( 188)		LEAG	R0(P)[0..15]	<-	V(44 'buffer' A)+0 , R0(IF)[0..15]	{}
+0002 ( 188)		LOADI1	R1(C)[-128..255]	<-	R0(PF)+0 {V(44 'buffer' A)} [0..15]	{}
+0003 ( 188)		CONV37	R0(I)[0..49]	<-	R4(C)[0..49]	{}
+0004 ( 188)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0005 ( 188)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R1(CF)[-128..255]	{}
+0006 ( 188)		BINOP1	R4(C)[1..50]	<-	R4(CF)[0..49], CI:1	{}
+0007 ( 188)		BINOP1	R5(C)[1..16]	<-	R5(CF)[0..15], CI:1	{}
+0008 ( 187)		JUMP		<-		{}
+		==> 398
+L1571: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 159)		CONST	R0(I)[15..15]	<-	CI:15	{}
+0001 ( 159)		JUMP		<-		{}
+		==> 1572
+L193: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 450)		RELOP19	R4(B)[0..1]	<-	R4(CF)[-128..255], CC:88	{}
+0001 ( 450)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 192
+		==> 2
+L135: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 435)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:76	{}
+0001 ( 435)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 133
+		==> 134
+L134: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 458)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:102	{}
+0001 ( 458)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 219
+		==> 225
+L219: <= D-1: (6)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 460)		LOADI4	R0(F)	<-	R3(P)+0 {V(0 '')} [2..]	{}
+0001 ( 204)		RELOP24	R1(B)[0..1]	<-	R0(F), CF:0.000000 (00000000)	{}
+0002 ( 204)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 227
+		==> 228
+L227: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 207)		STOREG1		<-	V(7 'buff' A)+0 , CC:45	{}
+0001 ( 206)		UNOP11	R0(F)	<-	R0(FF)	{}
+0002 ( 204)		JUMP		<-		{}
+		==> 2786
+L2786: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 210)		CONST	R9(C)[1..1]	<-	CI:1	{}
+0001 ( 209)		JUMP		<-		{}
+		==> 229
+L229: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/math.c
+0000 ( 224)		STOREG4		<-	V(51 'x')+0 , R0(F)	{}
+0001 ( 226)		LOADG2	R1(I)[-32768..65535]	<-	V(51 'x')+2 	{}
+0002 ( 226)		BINOP17	R1(I)[0..511]	<-	R1(IF)[-32768..65535], CI:7	{}
+0003 ( 226)		BINOP9	R1(I)[0..255]	<-	R1(IF)[0..511], CI:255	{}
+0004 ( 226)		RELOP19	R1(B)[0..1]	<-	R1(IF)[0..255], CI:255	{}
+0005 ( 212)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 231
+		==> 232
+L231: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 214)		CONV37	R0(I)[0..1]	<-	R9(C)[0..1]	{}
+0001 ( 214)		LEAG	R1(P)[0..1]	<-	V(7 'buff' A)+0 , R0(I)[0..1]	{}
+0002 ( 214)		STOREI1		<-	R1(PF)+0 {V(7 'buff' A)} [0..1], CC:73	{}
+0003 ( 215)		LEAG	R1(P)[1..2]	<-	V(7 'buff' A)+1 , R0(I)[0..1]	{}
+0004 ( 215)		STOREI1		<-	R1(PF)+0 {V(7 'buff' A)} [1..2], CC:78	{}
+0005 ( 216)		LEAG	R0(P)[2..3]	<-	V(7 'buff' A)+2 , R0(IF)[0..1]	{}
+0006 ( 216)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [2..3], CC:70	{}
+0007 ( 216)		BINOP1	R9(C)[3..4]	<-	R9(CF)[0..1], CI:3	{}
+0008 ( 212)		JUMP		<-		{}
+		==> 233
+L233: <= D-1: (3)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 330)		CONV37	R1(I)[1..50]	<-	R9(C)[1..50]	{}
+0001 ( 330)		LOADG1	R6(C)[-128..255]	<-	V(8 'si')+1 	{}
+0002 ( 330)		RELOP28	R0(B)[0..1]	<-	R9(C)[1..50], R6(C)[-128..255]	{}
+0003 ( 330)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 271
+		==> 226
+L271: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 332)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 332)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 277
+		==> 274
+L277: <= D-1: (2) Head P4194 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 335)		LEAG	R0(P)[1..49]	<-	V(7 'buff' A)+0 , R1(IF)[1..49]	{}
+0001 ( 335)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [1..49], CC:32	{}
+0002 ( 334)		BINOP1	R9(C)[2..255]	<-	R9(CF)[1..254], CI:1	{}
+0003 ( 334)		CONV37	R1(I)[2..255]	<-	R9(C)[2..255]	{}
+0004 ( 334)		RELOP28	R0(B)[0..1]	<-	R9(C)[2..255], R6(C)[-128..255]	{}
+0005 ( 334)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 277
+		==> 275
+L275: <= D-1: (3)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 347)		CONV37	R1(I)[0..255]	<-	R6(CF)[-128..255]	{}
+0001 ( 347)		JUMP		<-		{}
+		==> 226
+L226: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 462)		LEAI	R3(P)+0 {V(0 '')} [6..]	<-	R3(PF)+0 {V(0 '')} [2..], CI:4	{}
+0001 ( 458)		JUMP		<-		{}
+		==> 2
+L274: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 340)		CONV37	R0(I)[0..255]	<-	R6(C)[-128..255]	{I}
+0001 ( 339)		CONST	R7(C)[1..1]	<-	CI:1	{}
+0002 ( 340)		CONST	R4(I)[1..1]	<-	CI:1	{}
+0003 ( 340)		JUMP		<-		{}
+		==> 279
+L279: <= D-1: (2) Head P4196 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 340)		BINOP2	R5(I)[0..49]	<-	R1(I)[1..50], R4(I)[1..50]	{}
+0001 ( 340)		LEAG	R5(P)[-49..49]	<-	V(7 'buff' A)+0 , R5(IF)[0..49]	{}
+0002 ( 340)		LOADI1	R8(C)[-128..255]	<-	R5(PF)+0 {V(7 'buff' A)} [-49..49]	{}
+0003 ( 340)		BINOP2	R5(I)[0..49]	<-	R0(I)[0..255], R4(I)[1..50]	{}
+0004 ( 340)		LEAG	R5(P)[-50..254]	<-	V(7 'buff' A)+0 , R5(IF)[0..49]	{}
+0005 ( 340)		STOREI1		<-	R5(PF)+0 {V(7 'buff' A)} [-50..254], R8(CF)[-128..255]	{}
+0006 ( 340)		BINOP1	R4(I)[2..51]	<-	R4(IF)[1..50], CI:1	{}
+0007 ( 339)		BINOP1	R7(C)[2..51]	<-	R7(CF)[1..50], CI:1	{}
+0008 ( 339)		RELOP26	R5(B)[0..1]	<-	R7(C)[2..51], R9(C)[1..50]	{}
+0009 ( 339)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 279
+		==> 280
+L280: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 341)		BINOP2	R0(I)[-50..254]	<-	R0(IF)[0..255], R1(IF)[1..50]	{I}
+0001 ( 341)		RELOP28	R1(B)[0..1]	<-	CI:0, R0(I)[-50..254]	{}
+0002 ( 341)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 1091
+		==> 275
+L1091: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 341)		CONST	R4(C)[0..0]	<-	CI:0	{}
+0001 ( 341)		CONST	R1(I)[1..0]	<-	CI:0	{}
+0002 ( 342)		JUMP		<-		{}
+		==> 282
+L282: <= D-1: (2) Head P4195 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 342)		LEAG	R1(P)[0..49]	<-	V(7 'buff' A)+0 , R1(IF)[0..49]	{}
+0001 ( 342)		STOREI1		<-	R1(PF)+0 {V(7 'buff' A)} [0..49], CC:32	{}
+0002 ( 341)		BINOP1	R4(C)[1..255]	<-	R4(CF)[0..254], CI:1	{}
+0003 ( 341)		CONV37	R1(I)[1..255]	<-	R4(C)[1..255]	{}
+0004 ( 341)		RELOP28	R5(B)[0..1]	<-	R1(I)[1..255], R0(I)[1..254]	{}
+0005 ( 341)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 282
+		==> 275
+L232: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 222)		LOADG1	R1(C)[-128..255]	<-	V(8 'si')+2 	{}
+0001 ( 222)		RELOP20	R4(B)[0..1]	<-	R1(C)[-128..255], CC:255	{}
+0002 ( 222)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 1573
+		==> 1574
+L1573: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 222)		CONV37	R4(I)[0..255]	<-	R1(CF)[-128..255]	{}
+0001 ( 222)		JUMP		<-		{}
+		==> 1575
+L1575: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 222)		MOVE	R8(C)[0..255]	<-	R4(C)[0..255]	{}
+0001 ( 220)		CONST	R5(I)[0..0]	<-	CI:0	{}
+0002 ( 224)		RELOP20	R1(B)[0..1]	<-	R0(F), CF:0.000000 (00000000)	{}
+0003 ( 224)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 409
+		==> 234
+L409: <= D-1: (2) Head P4201 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 226)		RELOP21	R1(B)[0..1]	<-	R0(F), CF:1000.000000 (447a0000)	{}
+0001 ( 226)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 236
+		==> 408
+L236: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 229)		BINOP1	R5(I)[3..]	<-	R5(IF)[0..], CI:3	{}
+0001 ( 228)		BINOP5	R0(F)	<-	R0(FF), CF:1000.000000 (447a0000)	{}
+0002 ( 226)		JUMP		<-		{}
+		==> 409
+L408: <= D-1: (2) Head P4200 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 232)		RELOP24	R1(B)[0..1]	<-	R0(F), CF:1.000000 (3f800000)	{}
+0001 ( 232)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 238
+		==> 407
+L238: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 235)		BINOP2	R5(I)	<-	R5(IF), CI:3	{}
+0001 ( 234)		BINOP3	R0(F)	<-	R0(FF), CF:1000.000000 (447a0000)	{}
+0002 ( 232)		JUMP		<-		{}
+		==> 408
+L407: <= D-1: (2) Head P4199 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 238)		RELOP21	R1(B)[0..1]	<-	R0(F), CF:10.000000 (41200000)	{}
+0001 ( 238)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 240
+		==> 234
+L240: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 241)		BINOP1	R5(I)	<-	R5(IF), CI:1	{}
+0001 ( 240)		BINOP5	R0(F)	<-	R0(FF), CF:10.000000 (41200000)	{}
+0002 ( 238)		JUMP		<-		{}
+		==> 407
+L234: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 247)		RELOP19	R10(B)[0..1]	<-	R7(C)[69..103], CC:101	{}
+0001 ( 246)		CONV37	R1(I)[0..255]	<-	R4(C)[0..255]	{}
+0002 ( 246)		BINOP1	R6(I)[1..256]	<-	R1(I)[0..255], CI:1	{}
+0003 ( 249)		RELOP19	R7(B)[0..1]	<-	R7(CF)[69..103], CC:103	{}
+0004 ( 249)		BRANCH		<-	R7(BF)[0..1]	{}
+		==> 241
+		==> 242
+L241: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 251)		RELOP23	R7(B)[0..1]	<-	R5(I), CI:3	{}
+0001 ( 251)		BRANCH		<-	R7(BF)[0..1]	{}
+		==> 243
+		==> 244
+L243: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 252)		CONST	R10(B)[1..1]	<-	CI:1	{}
+0001 ( 255)		JUMP		<-		{}
+		==> 245
+L245: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 278)		RELOP28	R1(B)[0..1]	<-	R6(C)[1..255], CC:7	{}
+0001 ( 278)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 253
+		==> 254
+L253: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 279)		BINOP16	R1(I)[4..24]	<-	R6(C)[1..6], CI:2	{}
+0001 ( 279)		LEAG	R1(P)[0..20]	<-	V(6 'fround5' A)+-4 , R1(IF)[4..24]	{}
+0002 ( 279)		LOADI4	R1(F)	<-	R1(PF)+0 {V(6 'fround5' A)} [0..20]	{}
+0003 ( 283)		JUMP		<-		{}
+		==> 2756
+L2756: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 281)		BINOP1	R0(F)	<-	R1(FF), R0(FF)	{}
+0001 ( 283)		RELOP21	R1(B)[0..1]	<-	R0(F), CF:10.000000 (41200000)	{}
+0002 ( 283)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 255
+		==> 246
+L255: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 286)		BINOP1	R5(I)	<-	R5(IF), CI:1	{}
+0001 ( 283)		JUMP		<-		{}
+		==> 2982
+L2982: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 285)		BINOP5	R0(F)	<-	R0(FF), CF:10.000000 (41200000)	{}
+0001 ( 283)		JUMP		<-		{}
+		==> 246
+L246: <= D-1: (3)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 291)		CONV37	R1(I)[1..255]	<-	R6(C)[1..255]	{}
+0001 ( 291)		CONV37	R4(I)[0..255]	<-	R8(CF)[-1..255]	{}
+0002 ( 291)		BINOP2	R4(I)[-254..255]	<-	R1(IF)[1..255], R4(IF)[0..255]	{}
+0003 ( 293)		RELOP27	R1(B)[0..1]	<-	R6(C)[1..255], CC:20	{}
+0004 ( 293)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 256
+		==> 257
+L256: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 294)		CONST	R6(C)[20..20]	<-	CI:20	{}
+0001 ( 296)		BRANCH		<-	R4(C)[-128..255]	{}
+		==> 405
+		==> 258
+L405: <= D-1: (3)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 299)		CONST	R11(C)[0..0]	<-	CI:0	{}
+0001 ( 301)		JUMP		<-		{}
+		==> 261
+L261: <= D-1: (2) Head P4197 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 301)		RELOP19	R1(B)[0..1]	<-	R11(C)[0..19], R4(C)[-128..255]	{}
+0001 ( 301)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 263
+		==> 264
+L263: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 302)		CONV37	R1(I)[0..49]	<-	R9(C)[0..49]	{}
+0001 ( 302)		LEAG	R1(P)[0..49]	<-	V(7 'buff' A)+0 , R1(IF)[0..49]	{}
+0002 ( 302)		STOREI1		<-	R1(PF)+0 {V(7 'buff' A)} [0..49], CC:46	{}
+0003 ( 302)		BINOP1	R9(C)[1..50]	<-	R9(CF)[0..49], CI:1	{}
+0004 ( 303)		JUMP		<-		{}
+		==> 264
+L264: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 304)		CONV37	R1(I)[0..49]	<-	R9(C)[0..49]	{}
+0001 ( 304)		LEAG	R1(P)[0..49]	<-	V(7 'buff' A)+0 , R1(IF)[0..49]	{}
+0002 ( 303)		RELOP27	R7(B)[0..1]	<-	R11(C)[0..19], CC:6	{}
+0003 ( 303)		BRANCH		<-	R7(BF)[0..1]	{}
+		==> 265
+		==> 266
+L265: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 304)		STOREI1		<-	R1(PF)+0 {V(7 'buff' A)} [0..49], CC:48	{}
+0001 ( 299)		JUMP		<-		{}
+		==> 260
+L260: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 304)		BINOP1	R9(C)[1..50]	<-	R9(CF)[0..49], CI:1	{}
+0001 ( 299)		BINOP1	R11(C)[1..20]	<-	R11(CF)[0..19], CI:1	{}
+0002 ( 299)		RELOP28	R1(B)[0..1]	<-	R11(C)[1..20], R6(C)[1..20]	{}
+0003 ( 299)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 261
+		==> 262
+L262: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 314)		BRANCH		<-	R10(BF)[0..1]	{}
+		==> 267
+		==> 233
+L267: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 316)		CONV37	R0(I)[1..49]	<-	R9(C)[1..49]	{}
+0001 ( 316)		LEAG	R1(P)[1..49]	<-	V(7 'buff' A)+0 , R0(I)[1..49]	{}
+0002 ( 316)		STOREI1		<-	R1(P)+0 {V(7 'buff' A)} [1..49], CC:69	{}
+0003 ( 317)		RELOP24	R4(B)[0..1]	<-	R5(I), CI:0	{}
+0004 ( 317)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 268
+		==> 269
+L268: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 319)		STOREI1		<-	R1(PF)+1 {V(7 'buff' A)} [1..49], CC:45	{}
+0001 ( 320)		UNOP11	R5(I)[1..32768]	<-	R5(IF)[-32768..-1]	{}
+0002 ( 317)		JUMP		<-		{}
+		==> 270
+L270: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 325)		BINOP5	R1(I)	<-	R5(I)[0..32768], CI:10	{}
+0001 ( 325)		BINOP1	R1(I)	<-	R1(IF), CI:48	{}
+0002 ( 325)		LEAG	R4(P)[3..48]	<-	V(7 'buff' A)+2 , R0(I)[1..46]	{}
+0003 ( 325)		STOREI1		<-	R4(PF)+0 {V(7 'buff' A)} [3..48], R1(CF)	{}
+0004 ( 326)		BINOP7	R5(I)	<-	R5(IF)[0..32768], CI:10	{}
+0005 ( 326)		BINOP1	R5(I)	<-	R5(IF), CI:48	{}
+0006 ( 326)		LEAG	R0(P)[4..49]	<-	V(7 'buff' A)+3 , R0(IF)[1..46]	{}
+0007 ( 326)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [4..49], R5(CF)	{}
+0008 ( 326)		BINOP1	R9(C)[5..50]	<-	R9(CF)[1..46], CI:4	{}
+0009 ( 314)		JUMP		<-		{}
+		==> 233
+L269: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 323)		STOREI1		<-	R1(PF)+1 {V(7 'buff' A)} [1..49], CC:43	{}
+0001 ( 317)		JUMP		<-		{}
+		==> 270
+L266: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 307)		CONV29	R7(I)	<-	R0(F)	{}
+0001 ( 310)		BINOP1	R8(I)	<-	R7(I), CI:48	{}
+0002 ( 310)		STOREI1		<-	R1(PF)+0 {V(7 'buff' A)} [0..49], R8(CF)	{}
+0003 ( 308)		CONV30	R1(F)	<-	R7(IF)	{}
+0004 ( 308)		BINOP2	R0(F)	<-	R0(FF), R1(FF)	{}
+0005 ( 309)		BINOP3	R0(F)	<-	R0(FF), CF:10.000000 (41200000)	{}
+0006 ( 299)		JUMP		<-		{}
+		==> 260
+L258: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 297)		CONV37	R1(I)[0..1]	<-	R9(C)[0..1]	{}
+0001 ( 297)		LEAG	R1(P)[0..1]	<-	V(7 'buff' A)+0 , R1(IF)[0..1]	{}
+0002 ( 297)		STOREI1		<-	R1(PF)+0 {V(7 'buff' A)} [0..1], CC:48	{}
+0003 ( 297)		BINOP1	R9(C)[1..2]	<-	R9(CF)[0..1], CI:1	{}
+0004 ( 299)		JUMP		<-		{}
+		==> 405
+L257: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 296)		BRANCH		<-	R4(C)[-128..255]	{}
+		==> 405
+		==> 258
+L254: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 281)		LOADG4	R1(F)	<-	V(6 'fround5' A)+24 	{}
+0001 ( 283)		JUMP		<-		{}
+		==> 2756
+L244: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 251)		RELOP24	R7(B)[0..1]	<-	R5(I)[-32768..3], CI:0	{}
+0001 ( 251)		BRANCH		<-	R7(BF)[0..1]	{}
+		==> 243
+		==> 242
+L242: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 255)		BRANCH		<-	R10(B)[0..1]	{}
+		==> 245
+		==> 406
+L406: <= D-1: (2) Head P4198 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 257)		RELOP24	R6(B)[0..1]	<-	R5(I), CI:0	{}
+0001 ( 257)		BRANCH		<-	R6(BF)[0..1]	{}
+		==> 248
+		==> 249
+L248: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 259)		BINOP5	R0(F)	<-	R0(FF), CF:10.000000 (41200000)	{}
+0001 ( 260)		BINOP1	R5(I)[-32767..0]	<-	R5(IF)[-32768..-1], CI:1	{}
+0002 ( 257)		JUMP		<-		{}
+		==> 406
+L249: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 263)		BINOP1	R1(I)[0..33022]	<-	R1(IF)[0..255], R5(I)[0..32767]	{}
+0001 ( 263)		BINOP1	R6(I)[1..33023]	<-	R1(IF)[0..33022], CI:1	{}
+0002 ( 265)		RELOP28	R1(B)[0..1]	<-	R6(C)[1..33023], CC:7	{}
+0003 ( 265)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 250
+		==> 251
+L250: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 266)		BINOP16	R1(I)[4..24]	<-	R6(I)[1..6], CI:2	{}
+0001 ( 266)		LEAG	R1(P)[0..20]	<-	V(6 'fround5' A)+-4 , R1(IF)[4..24]	{}
+0002 ( 266)		LOADI4	R1(F)	<-	R1(PF)+0 {V(6 'fround5' A)} [0..20]	{}
+0003 ( 270)		JUMP		<-		{}
+		==> 2764
+L2764: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 268)		BINOP1	R0(F)	<-	R1(FF), R0(FF)	{}
+0001 ( 270)		RELOP21	R1(B)[0..1]	<-	R0(F), CF:10.000000 (41200000)	{}
+0002 ( 270)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 252
+		==> 246
+L252: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 273)		BINOP1	R8(C)[-1..254]	<-	R4(CF)[0..255], CI:-1	{}
+0001 ( 270)		JUMP		<-		{}
+		==> 2982
+L251: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 268)		LOADG4	R1(F)	<-	V(6 'fround5' A)+24 	{}
+0001 ( 270)		JUMP		<-		{}
+		==> 2764
+L1574: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 222)		CONST	R4(I)[6..6]	<-	CI:6	{}
+0001 ( 222)		JUMP		<-		{}
+		==> 1575
+L228: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 209)		LOADG1	R1(B)[0..1]	<-	V(8 'si')+5 	{}
+0001 ( 209)		BRANCH		<-	R1(BF)[0..1]	{}
+		==> 230
+		==> 1894
+L230: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 210)		STOREG1		<-	V(7 'buff' A)+0 , CC:43	{}
+0001 ( 209)		JUMP		<-		{}
+		==> 2786
+L1894: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 202)		CONST	R9(C)[0..0]	<-	CI:0	{}
+0001 ( 209)		JUMP		<-		{}
+		==> 229
+L225: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 458)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:103	{}
+0001 ( 458)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 219
+		==> 224
+L224: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 458)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:101	{}
+0001 ( 458)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 219
+		==> 223
+L223: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 458)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:70	{}
+0001 ( 458)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 219
+		==> 222
+L222: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 458)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:71	{}
+0001 ( 458)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 219
+		==> 221
+L221: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 458)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:69	{}
+0001 ( 458)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 219
+		==> 220
+L220: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 465)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:115	{}
+0001 ( 465)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 283
+		==> 285
+L283: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 467)		LOADI2	R0(I)[-32768..65535]	<-	R3(P)+0 {V(0 '')} [2..]	{}
+0001 ( 467)		CAST	R0(P)	<-	R0(IF)[-32768..65535]	{}
+0002 ( 467)		LEAI	R3(P)+0 {V(0 '')} [4..]	<-	R3(PF)+0 {V(0 '')} [2..], CI:2	{}
+0003 ( 469)		CONST	R5(C)[0..0]	<-	CI:0	{}
+0004 ( 470)		LOADG1	R6(C)[-128..255]	<-	V(8 'si')+1 	{}
+0005 ( 470)		BRANCH		<-	R6(C)[-128..255]	{}
+		==> 287
+		==> 286
+L287: <= D-1: (2) Head P4208 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 472)		CONV37	R4(I)[0..255]	<-	R5(C)[0..]	{}
+0001 ( 472)		LEAI	R4(P)+0	<-	R0(P)+0, R4(IF)[0..255]	{}
+0002 ( 472)		LOADI1	R4(C)[-128..255]	<-	R4(PF)+0	{}
+0003 ( 472)		BRANCH		<-	R4(CF)[-128..255]	{}
+		==> 288
+		==> 286
+L288: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 473)		BINOP1	R5(C)[1..]	<-	R5(CF)[0..], CI:1	{}
+0001 ( 472)		JUMP		<-		{}
+		==> 287
+L286: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 476)		LOADG1	R4(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 476)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 670
+		==> 672
+L670: <= D-1: (4)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		LEAI	R4(P)+0	<-	R0(P)+0, CI:1	{}
+0001 (  18)		LOADI1	R0(C)[-128..255]	<-	R0(PF)+0	{}
+0002 (  18)		BRANCH		<-	R0(C)[-128..255]	{}
+		==> 312
+		==> 292
+L312: <= D-1: (2) Head P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 206)		RELOP19	R6(B)[0..1]	<-	R0(C)[-128..255], CC:10	{}
+0001 ( 206)		BRANCH		<-	R6(BF)[0..1]	{}
+		==> 315
+		==> 316
+L315: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 207)		CONST	R0(I)[13..13]	<-	CI:13	{S}
+0001 ( 239)		JUMP		<-		{}
+		==> 4318
+L4318: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R0(CF)[-128..255], V(-1 '')+0 	{}
+0001 ( 239)		JUMP		<-		{}
+		==> 311
+L311: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		LOADI1	R0(C)[-128..255]	<-	R4(P)+0	{}
+0001 (  18)		LEAI	R4(P)+0	<-	R4(PF)+0, CI:1	{}
+0002 (  18)		BRANCH		<-	R0(C)[-128..255]	{}
+		==> 312
+		==> 292
+L292: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 502)		LOADG1	R0(B)[0..1]	<-	V(8 'si')+6 	{}
+0001 ( 502)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 669
+		==> 2
+L669: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 504)		LOADG1	R4(C)[-128..255]	<-	V(8 'si')+1 	{}
+0001 ( 504)		RELOP28	R0(B)[0..1]	<-	R5(C)[0..], R4(C)[-128..255]	{}
+0002 ( 504)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 1098
+		==> 2
+L1098: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 506)		LOADG1	R6(C)[-128..255]	<-	V(8 'si')+0 	{I}
+0001 ( 506)		JUMP		<-		{}
+		==> 327
+L327: <= D-1: (2) Head P4203 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 506)		CONV37	R0(I)[0..49]	<-	R1(C)[0..49]	{}
+0001 ( 506)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0002 ( 506)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R6(C)[-128..255]	{}
+0003 ( 506)		BINOP1	R1(C)[1..50]	<-	R1(CF)[0..49], CI:1	{}
+0004 ( 507)		BINOP1	R5(C)[1..255]	<-	R5(CF)[0..254], CI:1	{}
+0005 ( 504)		RELOP28	R0(B)[0..1]	<-	R5(C)[1..255], R4(C)[-128..255]	{}
+0006 ( 504)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 327
+		==> 2
+L316: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 208)		RELOP19	R6(B)[0..1]	<-	R0(C)[-128..255], CC:9	{}
+0001 ( 208)		BRANCH		<-	R6(BF)[0..1]	{}
+		==> 317
+		==> 4318
+L317: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 413)		LOADA1	R0(C)[-128..255]	<-	V(-1 '')+211 	{V}
+0001 ( 210)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0002 ( 210)		BINOP9	R0(I)[0..3]	<-	R0(IF)[0..255], CI:3	{}
+0003 ( 212)		CONST	R6(C)[32..32]	<-	CI:32	{IS}
+0004 ( 193)		JUMP		<-		{}
+		==> 319
+L319: <= D-1: (2) Head P4202 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R6(C)[32..32], V(-1 '')+0 	{}
+0001 ( 213)		BINOP1	R0(C)[1..4]	<-	R0(CF)[0..3], CI:1	{}
+0002 ( 213)		RELOP28	R7(B)[0..1]	<-	R0(C)[1..4], CC:4	{}
+0003 ( 213)		BRANCH		<-	R7(BF)[0..1]	{}
+		==> 319
+		==> 311
+L672: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 478)		RELOP28	R4(B)[0..1]	<-	R5(C)[0..], R6(C)[-128..255]	{}
+0001 ( 478)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 1103
+		==> 670
+L1103: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 480)		LOADG1	R7(C)[-128..255]	<-	V(8 'si')+0 	{I}
+0001 ( 480)		JUMP		<-		{}
+		==> 291
+L291: <= D-1: (2) Head P4207 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 480)		CONV37	R4(I)[0..49]	<-	R1(C)[0..49]	{}
+0001 ( 480)		LEAG	R4(P)[0..49]	<-	V(7 'buff' A)+0 , R4(IF)[0..49]	{}
+0002 ( 480)		STOREI1		<-	R4(PF)+0 {V(7 'buff' A)} [0..49], R7(C)[-128..255]	{}
+0003 ( 480)		BINOP1	R1(C)[1..50]	<-	R1(CF)[0..49], CI:1	{}
+0004 ( 481)		BINOP1	R5(C)[1..255]	<-	R5(CF)[0..254], CI:1	{}
+0005 ( 478)		RELOP28	R4(B)[0..1]	<-	R5(C)[1..255], R6(C)[-128..255]	{}
+0006 ( 478)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 291
+		==> 289
+L289: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 487)		BRANCH		<-	R1(C)[1..50]	{}
+		==> 293
+		==> 670
+L293: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 487)		CONV37	R1(I)[1..49]	<-	R1(CF)[1..49]	{}
+0001 ( 489)		LEAG	R1(P)[1..49]	<-	V(7 'buff' A)+0 , R1(IF)[1..49]	{}
+0002 ( 489)		STOREI1		<-	R1(PF)+0 {V(7 'buff' A)} [1..49], CC:0	{}
+0003 (  18)		LOADG1	R1(C)[-128..255]	<-	V(7 'buff' A)+0 	{}
+0004 (  18)		BRANCH		<-	R1(C)[-128..255]	{}
+		==> 1895
+		==> 295
+L1895: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		CONST	R4(C)[1..1]	<-	CI:1	{}
+0001 ( 206)		JUMP		<-		{}
+		==> 297
+L297: <= D-1: (2) Head P4206 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 206)		RELOP19	R6(B)[0..1]	<-	R1(C)[-128..255], CC:10	{}
+0001 ( 206)		BRANCH		<-	R6(BF)[0..1]	{}
+		==> 300
+		==> 301
+L300: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 207)		CONST	R1(I)[13..13]	<-	CI:13	{S}
+0001 ( 239)		JUMP		<-		{}
+		==> 4317
+L4317: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R1(CF)[-128..255], V(-1 '')+0 	{}
+0001 ( 239)		JUMP		<-		{}
+		==> 296
+L296: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		LEAG	R1(P)[1..49]	<-	R4(C)[1..49]	{}
+0001 (  18)		LOADI1	R1(C)[-128..255]	<-	R1(PF)+0 {V(7 'buff' A)} [1..49]	{}
+0002 (  18)		BINOP1	R4(C) {V(7 'buff' A)} [2..50]	<-	R4(CF) {V(7 'buff' A)} [1..49], CI:1	{}
+0003 (  18)		BRANCH		<-	R1(C)[-128..255]	{}
+		==> 297
+		==> 295
+L295: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 491)		CONST	R1(C)[0..0]	<-	CI:0	{}
+0001 (  18)		JUMP		<-		{}
+		==> 670
+L301: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 208)		RELOP19	R6(B)[0..1]	<-	R1(C)[-128..255], CC:9	{}
+0001 ( 208)		BRANCH		<-	R6(BF)[0..1]	{}
+		==> 302
+		==> 4317
+L302: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 413)		LOADA1	R1(C)[-128..255]	<-	V(-1 '')+211 	{V}
+0001 ( 210)		CONV37	R1(I)[0..255]	<-	R1(CF)[-128..255]	{}
+0002 ( 210)		BINOP9	R1(I)[0..3]	<-	R1(IF)[0..255], CI:3	{}
+0003 ( 212)		CONST	R6(C)[32..32]	<-	CI:32	{IS}
+0004 ( 193)		JUMP		<-		{}
+		==> 304
+L304: <= D-1: (2) Head P4205 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R6(C)[32..32], V(-1 '')+0 	{}
+0001 ( 213)		BINOP1	R1(C)[1..4]	<-	R1(CF)[0..3], CI:1	{}
+0002 ( 213)		RELOP28	R7(B)[0..1]	<-	R1(C)[1..4], CC:4	{}
+0003 ( 213)		BRANCH		<-	R7(BF)[0..1]	{}
+		==> 304
+		==> 296
+L285: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 465)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:83	{}
+0001 ( 465)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 283
+		==> 284
+L284: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 511)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:99	{}
+0001 ( 511)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 328
+		==> 330
+L328: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 513)		LOADI2	R0(I)[-32768..65535]	<-	R3(P)+0 {V(0 '')} [2..]	{}
+0001 ( 513)		STOREG1		<-	V(7 'buff' A)+0 , R0(CF)[-32768..65535]	{}
+0002 ( 513)		LEAI	R3(P)+0 {V(0 '')} [4..]	<-	R3(PF)+0 {V(0 '')} [2..], CI:2	{}
+0003 ( 511)		JUMP		<-		{}
+		==> 2785
+L2785: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 517)		CONST	R1(C)[1..1]	<-	CI:1	{}
+0001 ( 515)		JUMP		<-		{}
+		==> 2
+L330: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 511)		RELOP19	R0(B)[0..1]	<-	R7(C)[0..], CC:67	{}
+0001 ( 511)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 328
+		==> 329
+L329: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 515)		BRANCH		<-	R7(C)[0..]	{}
+		==> 331
+		==> 2
+L331: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 517)		STOREG1		<-	V(7 'buff' A)+0 , R7(CF)[0..]	{}
+0001 ( 515)		JUMP		<-		{}
+		==> 2785
+L15: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 208)		RELOP19	R4(B)[0..1]	<-	R0(C)[-128..255], CC:9	{}
+0001 ( 208)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 16
+		==> 4316
+L16: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 413)		LOADA1	R0(C)[-128..255]	<-	V(-1 '')+211 	{V}
+0001 ( 210)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0002 ( 210)		BINOP9	R0(I)[0..3]	<-	R0(IF)[0..255], CI:3	{}
+0003 ( 212)		CONST	R4(C)[32..32]	<-	CI:32	{IS}
+0004 ( 193)		JUMP		<-		{}
+		==> 18
+L18: <= D-1: (2) Head P4212 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R4(C)[32..32], V(-1 '')+0 	{}
+0001 ( 213)		BINOP1	R0(C)[1..4]	<-	R0(CF)[0..3], CI:1	{}
+0002 ( 213)		RELOP28	R5(B)[0..1]	<-	R0(C)[1..4], CC:4	{}
+0003 ( 213)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 18
+		==> 10
+L6: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 522)		CONV37	R0(I)[0..49]	<-	R1(C)[0..49]	{}
+0001 ( 522)		LEAG	R0(P)[0..49]	<-	V(7 'buff' A)+0 , R0(IF)[0..49]	{}
+0002 ( 522)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [0..49], R4(CF)[-128..255]	{}
+0003 ( 522)		BINOP1	R1(C)[1..50]	<-	R1(CF)[0..49], CI:1	{}
+0004 ( 523)		RELOP25	R0(B)[0..1]	<-	R1(C)[1..50], CC:40	{}
+0005 ( 523)		BRANCH		<-	R0(BF)[0..1]	{}
+		==> 332
+		==> 2
+L332: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 523)		CONV37	R0(I)[40..49]	<-	R1(CF)[40..49]	{}
+0001 ( 527)		LEAG	R0(P)[40..49]	<-	V(7 'buff' A)+0 , R0(IF)[40..49]	{}
+0002 ( 527)		STOREI1		<-	R0(PF)+0 {V(7 'buff' A)} [40..49], CC:0	{}
+0003 (  18)		LOADG1	R0(C)[-128..255]	<-	V(7 'buff' A)+0 	{}
+0004 (  18)		BRANCH		<-	R0(C)[-128..255]	{}
+		==> 1896
+		==> 333
+L1896: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		CONST	R1(C)[1..1]	<-	CI:1	{}
+0001 ( 206)		JUMP		<-		{}
+		==> 335
+L335: <= D-1: (2) Head P4215 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 206)		RELOP19	R4(B)[0..1]	<-	R0(C)[-128..255], CC:10	{}
+0001 ( 206)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 338
+		==> 339
+L338: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 207)		CONST	R0(I)[13..13]	<-	CI:13	{S}
+0001 ( 239)		JUMP		<-		{}
+		==> 4319
+L4319: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R0(CF)[-128..255], V(-1 '')+0 	{}
+0001 ( 239)		JUMP		<-		{}
+		==> 334
+L334: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 (  18)		LEAG	R0(P)[1..49]	<-	R1(C)[1..49]	{}
+0001 (  18)		LOADI1	R0(C)[-128..255]	<-	R0(PF)+0 {V(7 'buff' A)} [1..49]	{}
+0002 (  18)		BINOP1	R1(C) {V(7 'buff' A)} [2..50]	<-	R1(CF) {V(7 'buff' A)} [1..49], CI:1	{}
+0003 (  18)		BRANCH		<-	R0(C)[-128..255]	{}
+		==> 335
+		==> 333
+L333: <= D-1: (2)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/stdio.c
+0000 ( 532)		CONST	R1(C)[0..0]	<-	CI:0	{}
+0001 ( 523)		JUMP		<-		{}
+		==> 2
+L339: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 208)		RELOP19	R4(B)[0..1]	<-	R0(C)[-128..255], CC:9	{}
+0001 ( 208)		BRANCH		<-	R4(BF)[0..1]	{}
+		==> 340
+		==> 4319
+L340: <= D-1: (1)  P-1 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 413)		LOADA1	R0(C)[-128..255]	<-	V(-1 '')+211 	{V}
+0001 ( 210)		CONV37	R0(I)[0..255]	<-	R0(CF)[-128..255]	{}
+0002 ( 210)		BINOP9	R0(I)[0..3]	<-	R0(IF)[0..255], CI:3	{}
+0003 ( 212)		CONST	R4(C)[32..32]	<-	CI:32	{IS}
+0004 ( 193)		JUMP		<-		{}
+		==> 342
+L342: <= D-1: (2) Head P4214 /home/scott/github/cppc64cppnorth/tools/oscar64/include/conio.c
+0000 ( 193)		JSR		<-	R4(C)[32..32], V(-1 '')+0 	{}
+0001 ( 213)		BINOP1	R0(C)[1..4]	<-	R0(CF)[0..3], CI:1	{}
+0002 ( 213)		RELOP28	R5(B)[0..1]	<-	R0(C)[1..4], CC:4	{}
+0003 ( 213)		BRANCH		<-	R5(BF)[0..1]	{}
+		==> 342
+		==> 334
