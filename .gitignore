@@ -1,5 +1,36 @@
+# Build artifacts
 *.o
 *.d64
 *.exe
 build/
 temp/
+build_test.log
+
+# Toolchain directories (will be created by install scripts)
+tools/
+*.tar.gz
+*.tar.xz
+llvm-mos/
+carbon_toolchain/
+carbon-busybox
+
+# Binary executables from toolchains
+oscar64
+cl65
+cc65
+ld65
+ar65
+ca65
+sp65
+od65
+co65
+chrcvt65
+da65
+grc65
+bin2c
+bin2s
+**/bin/*
+**/build/*
+
+# Zone identifier files from WSL downloads
+*:Zone.Identifier

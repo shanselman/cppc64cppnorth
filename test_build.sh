@@ -55,7 +55,7 @@ fi
 # Verify all PRG files
 echo ""
 echo "🔍 Verifying PRG files..."
-expected_files=("cppnorth.prg" "cppnorth_fixed.prg" "cppnorth_deluxe.prg" "cppnorth_cpp.prg")
+expected_files=("cppnorth.prg" "cppnorth_deluxe.prg" "cppnorth_cpp.prg")
 
 for prg_file in "${expected_files[@]}"; do
     if [ -f "$prg_file" ]; then
@@ -75,9 +75,8 @@ echo ""
 echo "🎉 BUILD TEST COMPLETED SUCCESSFULLY!"
 echo ""
 echo "Available programs:"
-echo "  • cppnorth.prg - Simple C version"
-echo "  • cppnorth_fixed.prg - Enhanced C version"  
-echo "  • cppnorth_deluxe.prg - Professional C version"
+echo "  • cppnorth.prg - Basic C version"
+echo "  • cppnorth_deluxe.prg - Advanced C version"
 echo "  • cppnorth_cpp.prg - Real C++ version"
 echo ""
 echo "To run on VICE C64 emulator:"

@@ -42,12 +42,11 @@ make run-cpp
 
 ## Available Builds
 
-The project creates four different PRG files:
+The project creates three different PRG files showing progression from basic C to real C++:
 
-1. **cppnorth.prg** - Simple C version with basic PETSCII maple leaf
-2. **cppnorth_deluxe.prg** - Professional C version with reverse video blocks
-3. **cppnorth_fixed.prg** - Enhanced C version with improved character handling
-4. **cppnorth_cpp.prg** - Modern C++ version with classes and RAII
+1. **cppnorth.prg** - Basic C version with simple PETSCII maple leaf
+2. **cppnorth_deluxe.prg** - Advanced C version with reverse video blocks and decorative frame
+3. **cppnorth_cpp.prg** - Real C++ version with classes, RAII, and namespaces
 
 ## Build Instructions
 
@@ -59,9 +58,8 @@ make all
 ### Build Individual Versions
 ```bash
 # C versions (using cc65)
-make               # Simple version
-make deluxe        # Professional version
-make fixed         # Enhanced version
+make               # Basic version
+make deluxe        # Advanced version
 
 # C++ version (using Oscar64)
 make cpp
@@ -69,9 +67,8 @@ make cpp
 
 ### Run Individual Versions
 ```bash
-make run           # Run simple C version
-make run-deluxe    # Run professional C version
-make run-fixed     # Run enhanced C version
+make run           # Run basic C version
+make run-deluxe    # Run advanced C version
 make run-cpp       # Run C++ version
 ```
 
@@ -121,10 +118,9 @@ All versions target the standard C64 memory layout:
 
 ```
 cppc64cppnorth/
-├── c64_main.c              # Simple C version
-├── c64_main_deluxe.c       # Professional C version  
-├── c64_main_fixed.c        # Enhanced C version
-├── cpp_simple.cpp          # Modern C++ version
+├── c64_main.c              # Basic C version
+├── c64_main_deluxe.c       # Advanced C version  
+├── cpp_simple.cpp          # Real C++ version
 ├── Makefile                # cc65 build configuration
 ├── Makefile.oscar64        # Oscar64 build configuration
 ├── install_cc65.sh         # cc65 toolchain installer
